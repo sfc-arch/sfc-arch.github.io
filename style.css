@@ -1,0 +1,72 @@
+@charset "Shift_JIS";
+
+/* 全体 */
+*{ margin: 0; padding: 0; font:normal normal normal 100%/1.6em Verdana,Chicago,Osaka,"ＭＳ Ｐゴシック",sans-serif; }
+body{ text-align:center; font-size:84%; background:#fff3a4 repeat; }
+/* ページ全体のリンク */
+a{ text-decoration:none; }
+a:link{ color:#ac00ac; text-decoratino:none;}
+a:visited{ color:#000; text-decoratino:none;}
+a:hover{ color:#88e800; text-decoration:underline; }
+
+/* ページの大枠設定 */
+#body{ width:640px; margin:0 auto; text-align: left; }
+
+/* ヘッダー */
+#head{ width:100%; text-align:right; background:#999; margin:0.5em 0 0; }
+/* site nameの文字 */
+h1 a{ font-size:170%; color:#000; text-decoration:none; font-family:"Arial Black",sans-serif; padding:10px 5px 2px; }
+h1 a:link,h1 a:visited,h1 a:hover{ color:#000; text-decoration:none; }
+
+/* メニュー */
+#menu{ width:100%; margin:0; background:#555; height:30px; }
+/* メニューリンク */
+#menu ul{ list-style-type:none; margin:0; color:#000; width:100%; }
+#menu li{ display:block; float:left; width:100px; background:#555; }
+#menu li a{ display:block; font-weight:bold; text-decoration:none; padding:1px 10px 4px; border-top:3px solid #555; }
+#menu li a:link{ color:#fff; }
+#menu li a:visited{ color:#fff; }
+#menu li a:hover{ color:#ffbf00; border-top:3px solid #f7941d; }
+#menu li a.on{ color:#fff; }
+
+/* 画像部分 */
+#pic{ width:100%; height:100px; background:#f7941d; padding:10px 0; }
+.pic{width:640px; height:100px; background:#ccc url('logo3.png') no-repeat 50% 50%; }
+
+
+/* メイン */
+#main{ color:#666; background:#fff; margin:0; padding:5px 15px; }
+.nav{ text-align:right; margin:0.4em 0 0; }
+
+/* フッター */
+#foot{ text-align:center; font-size:90%; color:#ccc; background:#555; margin:0 0 0.5em; padding:2px 15px; }
+address { text-align:center; }
+
+/* 見出し */
+h2{ font-size:110%; color:#333; font-weight:bold; margin:1em 0 0.5em; padding:0 8px; border-left:5px solid #f7941d; }
+h3{ font-size:105%; color:#333; font-weight:bold; padding:2px 0px; margin:0.5em 0 0.5em 1em; }
+h4{ font-size:100%; font-weight:bold; padding:2px 0px; margin:0.4em 0 0.4em 1em; }
+
+/* その他　必要であれば */
+img{ border:0; }
+hr.no{ display:none; }
+em{ font-weight:bold; }
+strong{ font-weight:bold; border-bottom:2px solid #f7941d; }
+ins{ text-decoration:underline; }
+del{ text-decoration:line-through; }
+
+input,textarea,select{ border:1px solid #88e800; margin:0.1em 0; }
+
+#main ol{ list-style-position:inside; padding:5px 15px; }
+#main ol li{ padding:0; }
+#main ul{ list-style-position:inside; list-style-type:square; padding:5px 25px; }
+#main ul li{ padding:0;}
+#main dl{list-style-position:inside; padding:5px 15px;}
+#main dt{ font-weight:bold; padding:1px 0; margin:0.4em 0 0; }
+#main dd{ padding:1px 5px; border-left:2px solid #f7941d; margin:0 0 0 1em; }
+
+p{ margin:0.4em 0 0.4em 1em; color:#000000; }
+blockquote{ border:1px solid #f7941d; margin:0.5em 2em; padding:5px; }
+pre{  background:#ccc; color:#000; margin:0.5em 2em; padding:5px; }
+
+hoge{ padding:0;}
