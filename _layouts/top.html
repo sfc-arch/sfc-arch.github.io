@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="page-logo">
+      <div class="wrapper">
+        <img src="images/arch-logo.png" />
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+          <article class="post-content">
+            {{ content }}
+          </article>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
