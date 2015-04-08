@@ -26,3 +26,5 @@ Overlay Network
 Internet Operation
 Internet Communication
 上記のようにInternet Architecture KGは研究テーマを限定しない。 インターネット技術で興味のある分野を研究するための環境がある。Internet Architecture KGの特徴は各技術に特化するだけでなく、アーキテクチャ的視点から各技術を捉えることである。
+
+![arch motion](images/arch-motion.png)
