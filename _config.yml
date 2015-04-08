@@ -1,0 +1,17 @@
+exclude: ['Gemfile', 'Gemfile.lock']
+
+# Site settings
+title: SFC ARCH
+email: arch@sfc.wide.ad.jp
+description: >
+  Tokuda, Murai, Kusumoto, Nakamura, Takashio, Van Meter, Uehara, Mitsugi, Nakazawa, Takeda Laboratories
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: sfc-arch
+github_username:  sfc-arch
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
