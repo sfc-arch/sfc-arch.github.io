@@ -1,7 +1,7 @@
 exclude: ['Gemfile', 'Gemfile.lock']
 
 # Site settings
-title: SFC ARCH
+title: SFC Arch
 email: arch@sfc.wide.ad.jp
 description: >
   Tokuda, Murai, Kusumoto, Nakamura, Takashio, Van Meter, Uehara, Mitsugi, Nakazawa, Takeda Laboratories
