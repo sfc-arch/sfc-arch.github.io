@@ -4,12 +4,21 @@ title: Arch − Internet Architecture KG
 permalink: /
 ---
 # ミーティング
-ミーティングは、毎週木曜日18:30から、ΔN205にて行なっています。
+ミーティングは、毎週木曜日18:30から、当面の間はオンラインにて行なっています。(オフラインはΔN104)
+
+# メンバー
+M1: tatsu, skyline
+
+B4: yatty, fumi, nyatsume
+
+B3: cyan, supachan, aokiagent, takuma, takuan
+
+B2: nem, sksat
 
 # 新人募集中
 新人は随時受け付けています。ミーティングへの飛び入り参加も歓迎です！
 
-ご質問のある方は、 <arch@sfc.wide.ad.jp> までメールをください。
+ご質問やミーティングの参加リンクについては、 <arch@sfc.wide.ad.jp> までメールをください。
 
 # Contact Us
 お問い合わせは <arch@sfc.wide.ad.jp> まで。
@@ -33,11 +42,12 @@ Arch はインターネットアーキテクチャの理解を深めると共に
 # Keywords
 Archにおける現在の研究トピックを以下に示す。
 
-- Routing
+- FPGA
+- Programming Language
+- OS
+- Audio
 - Mobility
-- Measurement
 - Overlay Network
-- Internet Operation
 - Internet Communication
 
 上記のようにInternet Architecture KGは研究テーマを限定しない。
