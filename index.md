@@ -17,9 +17,11 @@ M1: tatsu, skyline
 
 B4: yatty, fumi, nyatsume
 
-B3: cyan, supachan, aokiagent, takuma, takuan
+B3: cyan, supachan, aokiagent
 
-B2: nem, sksat
+B2: nem, sksat, takuan
+
+B1: aoiro, mkei, silva
 
 # 新人募集中
 新人は随時受け付けています。ミーティングへの飛び入り参加も歓迎です！
