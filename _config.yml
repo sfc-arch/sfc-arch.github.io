@@ -1,4 +1,4 @@
-exclude: ['Gemfile', 'Gemfile.lock']
+exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
 
 # Site settings
 title: Arch
