@@ -4,7 +4,7 @@ title: Arch − Internet Architecture KG
 permalink: /
 ---
 # ミーティング
-2020年度春学期
+2021年度秋学期
 
 初回,第２回: 木曜日18:30-
 
