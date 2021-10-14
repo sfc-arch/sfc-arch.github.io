@@ -8,20 +8,21 @@ permalink: /
 
 初回,第２回: 木曜日18:30-
 
-以降: 水曜日18:30-
+以降: 木曜日18:30- 
 
-当面の間はオンラインにて行なっています。(オフラインはΔN104)
+当面の間はオンラインとオフラインのハイブリットにて行なっています。(オフラインはΔN104)
 
 # メンバー
-M1: tatsu, skyline
+M2: tatsu, skyline
 
-B4: yatty, fumi, nyatsume
+M1: fumi
 
-B3: cyan, supachan, aokiagent
+B4: aokiagent, supachan, masatora
 
-B2: nem, sksat, takuan
+B3: pegasus, sksat
 
-B1: aoiro, mkei, silva
+B2: sui, mkei, 
+
 
 # 新人募集中
 新人は随時受け付けています。ミーティングへの飛び入り参加も歓迎です！
