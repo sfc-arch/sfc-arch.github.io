@@ -13,19 +13,15 @@ permalink: /
 当面の間はオンラインとオフラインのハイブリットにて行なっています。(オフラインはΔN104)
 
 # メンバー
-M2: tatsu, skyline
+M2: tatsu, fumi
 
-M1: fumi
+B4: aokiagent, pegasus, sksat
 
-B4: aokiagent, supachan, masatora
-
-B3: pegasus, sksat
-
-B2: sui, mkei, 
+B3: sui, mkei
 
 
 # 新人募集中
-新人は随時受け付けています。ミーティングへの飛び入り参加も歓迎です！
+新人は随時受け付けています。聴講やミーティングへの飛び入り参加も歓迎です！
 
 ご質問やミーティングの参加リンクについては、 <arch@sfc.wide.ad.jp> までメールをください。
 
@@ -58,6 +54,8 @@ Archにおける現在の研究トピックを以下に示す。
 - Mobility
 - Overlay Network
 - Internet Communication
+- Low-Latency IP Video Transmission
+- Drone
 
 上記のようにInternet Architecture KGは研究テーマを限定しない。
 インターネット技術で興味のある分野を研究するための環境がある。
