@@ -13,11 +13,13 @@ permalink: /
 当面の間はオンラインとオフラインのハイブリットにて行なっています。(オフラインはΔN104)
 
 # メンバー
-M2: tatsu, fumi
+M2: fumi
 
-B4: aokiagent, pegasus, sksat
+B4: cyan
 
 B3: sui, mkei
+
+B2: daiya, ras
 
 
 # 新人募集中
