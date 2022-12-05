@@ -1,0 +1,153 @@
+{
+    "papers": [
+        {
+            "en": "Yasunobu Toyota, Osamu Nakamura, “Dynamic Control Method of Explicit Address Mapping Table in IPv6 Single-Stack Network” 2020 21th Asia-Pacific Network Operations and Management Symposium (APNOMS), Daegu, Korea, 2020",
+            "ja": "Yasunobu Toyota, Osamu Nakamura, “Dynamic Control Method of Explicit Address Mapping Table in IPv6 Single-Stack Network” 2020 21th Asia-Pacific Network Operations and Management Symposium (APNOMS), Daegu, Korea, 2020",
+            "url": ""
+        },
+        {
+            "en": "Tomohiro Nishida, Keisuke Uehara, Naoko Takahashi, Nakano Yoshiaki, “CBT System V2 and Trial Entrance Examination of “Information” forUniversities”, 情報処理学会情報教育シンポジウム2019論文集, pp.226-233, Aug, 2019",
+            "ja": "⻄田知博、植原啓介、高橋尚子、中野由章、“「情報科」大学入試実施のためのCBTシステムV2と試行試験”、情報処理学会情報教育シンポジウム2019論文集、pp.226-233、2019年8月10日",
+            "url": ""
+        },
+        {
+            "en": "Tomohiro Nishida, Keisuke Uehara, Yoshihiko Kakutani, Nakano Yoshiaki, “「情報科」の大学入試実施のためのCBT システムの開発とその検討”, 大学入試研究ジャーナル, 第29号, pp.117-123, Mar, 2019",
+            "ja": "⻄田知博、植原啓介、角谷良彦、中野由章、“「情報科」の大学入試実施のためのCBT システムの開発とその検討”、大学入試研究ジャーナル、第29号、pp.117-123、2019年3月",
+            "url": ""
+        },
+        {
+            "en": "Yasunobu Toyota, Masaaki Sato, and, Jun Murai. “Vehicle information acquisition technology and protocol from multipleapplications using W3C Vehicle API.” マルチメディア, 分散協調とモバイルシンポジウム 2017 論文集 2017 (2017): 311-318",
+            "ja": "豊田安信, 佐藤雅明, and 村井純. “W3C Vehicle API を用いた複数のアプリケーションからの車両情報取得技術プロトコル.” マルチメディア, 分散協調とモバイルシンポジウム 2017 論文集 2017 (2017): 311-318",
+            "url": ""
+        },
+        {
+            "en": "Tomohiro Nishida, Keisuke Uehara, Yoshihiko Kakutani, Mitsugu Suizuki, Yasuichi Nakayama, Shoji Kosai, Naoko Takahashi, Michio Nakanishi, Toshimitsu Masuzawa, Masami Hagiya, Kenichi Hagihara, “Research and Development of CBT System for Informatics\" Entrance Examination”, 情報処理学会情報教育シンポジウム2017論文集, pp.182-187, Aug, 2018",
+            "ja": "⻄田知博、植原啓介、角谷良彦、鈴木貢、中山泰一、香⻄省治、高橋尚子、中⻄通雄、松浦敏雄、増澤利光、萩谷昌己、萩原兼一、“「情報科」大学入学者選抜におけるCBTシステムの研究開発”、情報処理学会情報教育シンポジウム2017論文集、pp.182-187、2017年8月10日（金）",
+            "url": ""
+        },
+        {
+            "en": "Seiichi Tani, Takuya Sakuma, Kakehi Katsuhiko, Jun Murai, Keisuke Uehara, Yoshiaki Nakano, Yasuichi Nakayama, Kazunari Ito, Hiroyasu Kakuda, Yashushi Kuno, Mitsugu Suzuki, Takeo Tasumi, Leo Nagamatsu, Tomohiro Nishida, Keinji Matsunaga, Koji Yamazaki, “On conduction the third and fourth nationwide trials of “University entrance examination on information study””, 情報処理学会情報教育シンポジウム2016論文集, pp.7-14 , Aug, 2016",
+            "ja": "谷聖一、佐久間拓也、筧捷彦、村井純、植原啓介、中野由章、中山泰一、伊藤一成、角田博保、久野靖、鈴木貢、辰己丈夫、永松礼夫、⻄田知博、松永賢次、山崎浩二、“「第3回・第4回大学情報入試全国模擬試験」の実施と評価”、情報処理学会情報教育シンポジウム2016論文集、pp.7-14 、2016年8月15日",
+            "url": ""
+        },
+        {
+            "en": "Keiko Shigeta, Keisuke Uehara, Jun Murai, “Questionnaire survey and analysis ofcurriculum \"Information\" in japanese high school”, 情報処理学会情報教育シンポジウム2015論文集, Aug, 2015",
+            "ja": "重田桂子、植原啓介、村井純、“高校教科「情報」に関するアンケート調査と分析”、情報処理学会情報教育シンポジウム2015論文集、2015年8月17日",
+            "url": ""
+        },
+        {
+            "en": "Yukito Ueno, Keisuke Uehara, “Design and implementation of para-virtualized driver for faster inter-vm communication in data-center”, Internet Conference 2014, Nov, 2014 (学生奨励賞)",
+            "ja": "上野幸杜、植原啓介、“データセンター内における高速VM間通信用準仮想化ドライバの設計と実装”、Internet Conference 2014、2014年11月5日 (学生奨励賞)",
+            "url": ""
+        },
+        {
+            "en": "Mizuki Kimoto, Keisuke Uehara, Jun Murai, ”Report of performance verification experiment with multi channel wireless multi-hop network”, Internet Conference 2014, Nov, 2014",
+            "ja": "木本瑞希、植原啓介、村井純、”マルチチャネル環境下における無線マルチホップネットワークの性能検証実験の報告”、Internet Conference 2014、2014年11月4日",
+            "url": ""
+        },
+        {
+            "en": "Yudai Yamagishi, Horiba Katsuhiro, Keisuke Uehara, Jun Murai, ”LEON: Connecting Multiple Sites Using Low Latency Overlay Network”, 電子情報通信学会論文誌B, Vol.J97-B, No.10, pp.839-848, Oct, 2014",
+            "ja": "山岸祐大、堀場勝広、植原啓介、村井純、”LEON：低遅延オーバレイネットワークによる複数拠点接続手法”、電子情報通信学会論文誌B、Vol.J97-B、No.10、pp.839-848、2014年10月1日",
+            "url": ""
+        },
+        {
+            "en": "Yoshiaki Nakano, Seiichi Tani, Katsuhiko Kakehi, Jun Murai, Keisuke Uehara, Yasuichi Nakayama, Kazunari Itoh, Hiroyasu Kakuda, Yasushi Kuno, Takuya Sakuma, Mitsugu Suzuki, Tatsumi Takeo, Leo Nagamatsu, Tomohiro Nishida, Kenji Matsunaga, Koji Yamazaki, “The nationwide trials of “exam for university entrance on information study” carried out and their evaluation”, 情報処理学会情報教育シンポジウム2014論文集, pp.11-17, Aug, 2014",
+            "ja": "中野由章、谷聖一、筧捷彦、村井純、植原啓介、中山泰一、伊藤一成、角田博保、久野靖、佐久間拓也、鈴木貢、辰己丈夫、永松礼夫、⻄田知博、松永賢次、山崎浩二、“「大学情報入試全国模擬試験」の実施と評価”、情報処理学会情報教育シンポジウム2014論文集、pp.11-17、2014年8月17日",
+            "url": ""
+        },
+        {
+            "en": "Masaharu Tsubokura, Shigeaki Kato, Masahiko Nihei, Yu Sakuma, Tomoyuki Furutani, Keisuke Uehara, AminaSugimoto, Shuhei Nomura, Ryugo Hayano, Masahiro Kami, Hajime Watanobe, Yukou Endo, “Limited Internal Radiation Exposure Associated with Resettlements to a Radiation-Contaminated Homeland after the Fukushima Daiichi Nuclear Disaster”, PLoS ONE, DOI: 10.1371/journal.pone.0081909, December 2, 2013",
+            "ja": "Masaharu Tsubokura, Shigeaki Kato, Masahiko Nihei, Yu Sakuma, Tomoyuki Furutani, Keisuke Uehara, AminaSugimoto, Shuhei Nomura, Ryugo Hayano, Masahiro Kami, Hajime Watanobe, Yukou Endo, “Limited Internal Radiation Exposure Associated with Resettlements to a Radiation-Contaminated Homeland after the Fukushima Daiichi Nuclear Disaster”, PLoS ONE, DOI: 10.1371/journal.pone.0081909, December 2, 2013",
+            "url": ""
+        },
+        {
+            "en": "Yudai Yamagishi, Katsuhiro Horiba, Keisuke Uehara, Jun Murai, \"Implementation and Evaluation of LatencyEfficient OverlayNetwork(LEON)\", Internet Conference 2013, Oct 14 2013 (Outstanding Paper Award)",
+            "ja": "Yudai Yamagishi, Katsuhiro Horiba, Keisuke Uehara, Jun Murai, \"Implementation and Evaluation of LatencyEfficient OverlayNetwork(LEON)\", Internet Conference 2013, Oct 14 2013 (論文賞)",
+            "url": ""
+        },
+        {
+            "en": "Tomoyuki FURUTANI, Keisuke UEHARA, Kazunori TANJI, Masaki USAMI, Toshihiko ASANO, “A Study on Micro-Scale Airborne Radiation Monitoringby Unmanned Aerial Vehicle for Rural Area Reform Contaminated byRadiation”, Proc. of The 9th Annual International Conference of the International Institute for Infrastructure Renewal and Reconstruction (i3r2), Jul 2013 (Highly Commended Award)",
+            "ja": "Tomoyuki FURUTANI, Keisuke UEHARA, Kazunori TANJI, Masaki USAMI, Toshihiko ASANO, “A Study on Micro-Scale Airborne Radiation Monitoringby Unmanned Aerial Vehicle for Rural Area Reform Contaminated byRadiation”, Proc. of The 9th Annual International Conference of the International Institute for Infrastructure Renewal and Reconstruction (i3r2), Jul 2013 (Highly Commended Award)",
+            "url": ""
+        },
+        {
+            "en": "Tomoyuki Furutani, Keisuke Uehara, Pieter Franken, Christopher Wang, Joe Morros, Jun Murai, “A Study on a Platform to Scan the Earth Information Including Environmental Radiation in the Internet Society”, Proc. of The 2012 Annual International Conference of the International Institute for Infrastructure Renewal and Reconstruction (i3r2), 26th Aug. 2012",
+            "ja": "Tomoyuki Furutani, Keisuke Uehara, Pieter Franken, Christopher Wang, Joe Morros, Jun Murai, “A Study on a Platform to Scan the Earth Information Including Environmental Radiation in the Internet Society”, Proc. of The 2012 Annual International Conference of the International Institute for Infrastructure Renewal and Reconstruction (i3r2), 26th Aug. 2012",
+            "url": ""
+        },
+        {
+            "en": "KATAOKA Kotaro, UEHARA Keisuke, OE Masafumi, MURAI Jun, “Design and Deployment of Post-Disaster Recovery Internet in 2011 Tohoku Earthquake”, IEICE transactions on communications, Vol. 95, No.7, pp.2200-2209, Jul 2012",
+            "ja": "KATAOKA Kotaro, UEHARA Keisuke, OE Masafumi, MURAI Jun, “Design and Deployment of Post-Disaster Recovery Internet in 2011 Tohoku Earthquake”, IEICE transactions on communications, Vol. 95, No.7, pp.2200-2209, Jul 2012",
+            "url": ""
+        },
+        {
+            "en": "Toshiaki Hatano, Keisuke Uehara,“DTNにおける複製削減のためのライフタイム委譲を用いた複製管理手法の提案”, インターネットコンファレンス2011, Oct, 2011",
+            "ja": "波多野敏明、植原啓介、“DTNにおける複製削減のためのライフタイム委譲を用いた複製管理手法の提案”、インターネットコンファレンス2011、 72011年10月27日",
+            "url": ""
+        },
+        {
+            "en": "Dan Sawada, Masaaki Sato, Keisuke Uehara, and Jun Murai, “iDANS: A Location Based Information Dissemination Platform for Ad-Hoc Networked Smartphones”, 11th International Conference on ITS Telecommunications (ITST), 24th Aug. 2011",
+            "ja": "Dan Sawada, Masaaki Sato, Keisuke Uehara, and Jun Murai, “iDANS: A Location Based Information Dissemination Platform for Ad-Hoc Networked Smartphones”, 11th International Conference on ITS Telecommunications (ITST), 24th Aug. 2011",
+            "url": ""
+        },
+        {
+            "en": "Hajime TAZAKI, Rodney VAN METER, Ryuji WAKIKAWA, Keisuke UEHARA, Jun MURAI, “NAT-MANEMO: Route Optimization for Unlimited Network Extensibility in MANEMO”, 情報処理学会論文誌, Vol.52, No.3, pp.1010-1020, Mar, 2011",
+            "ja": "Hajime TAZAKI, Rodney VAN METER, Ryuji WAKIKAWA, Keisuke UEHARA, Jun MURAI, “NAT-MANEMO: Route Optimization for Unlimited Network Extensibility in MANEMO”, 情報処理学会論文誌, Vol.52, No.3, pp.1010-1020, 2011年03月",
+            "url": ""
+        },
+        {
+            "en": "Takaaki Ishida, Keijiro Ehara, Seiichiro Toda, Masayoshi Imaike, Keisuke Uehara, Jun Murai, “Design and Evaluation of V2V Communication Protocolfor Throughput Enhancement”, 報処理学会論文誌Vol.51 No.1, pp.116-130, Jan, 2010",
+            "ja": "石田剛朗、頴原桂二郎、戶田晴一郎、今池正好、植原啓介、村井純、“通信エリア内でのスループット向上を目的とした車車間通信プロトコルの設計と評価”、報処理学会論文誌Vol.51 No.1、pp.116-130、2010年1月",
+            "url": ""
+        },
+        {
+            "en": "Masaaki Sato, Rie Shigetomi, Norimichi Ueda, Congwei Dang, Keisuke Uehara, Hideki Sunahara, Jun Murai, “Evaluation of the Privacy Protection MethodUsing Anonymous Authentication Protocol forProbe Vehicle Information System”, 情報処理学会論文誌Vol.50 No.1, pp.144-158, Jan, 2009",
+            "ja": "佐藤雅明、繁富利恵、上田憲道、党聡維、植原啓介、砂原秀樹、村井純、“プローブ情報システムのためのプライバシを考慮した匿名認証方式の提案と評価”、情報処理学会論文誌Vol.50 No.1、pp.144-158、2009年1月",
+            "url": ""
+        },
+        {
+            "en": "Rie SHIGETOMI, Masaaki SATO, Keisuke UEHARA, Akira OTSUKA, Hideki SUNAHARA, Hideki IMAI, “An Efficient Scheme to Protect Privacyin Probe Vehicle Information System,” Proceedings of of 8th International Conference of Intelligent Transport Systems Telecommunications 2008(ITST2008), pp.84-88, Oct 2008.",
+            "ja": "Rie SHIGETOMI, Masaaki SATO, Keisuke UEHARA, Akira OTSUKA, Hideki SUNAHARA, Hideki IMAI, “An Efficient Scheme to Protect Privacyin Probe Vehicle Information System,” Proceedings of of 8th International Conference of Intelligent Transport Systems Telecommunications 2008(ITST2008), pp.84-88, Oct 2008.",
+            "url": ""
+        },
+        {
+            "en": "Masami SUZUKI, Keisuke UEHARA, “Exploratory Life-Long Learning in a Co-Mobility Society,” IADIS Cognition and Exploratory Learningin Digital Age 2008 (CELDA 2008), Oct, 2008",
+            "ja": "Masami SUZUKI, Keisuke UEHARA, “Exploratory Life-Long Learning in a Co-Mobility Society,” IADIS Cognition and Exploratory Learningin Digital Age 2008 (CELDA 2008), Oct. 2008",
+            "url": ""
+        },
+        {
+            "en": "Daiki Terauchi, Keisuke Uehara, Yasuhito Watanabe, Hideki Sunahara, Fumio Teraoka, “ULP: A Location Platform that can Handle Multiple Location Representations”, SAINT2008, Jul, 2008",
+            "ja": "Daiki Terauchi, Keisuke Uehara, Yasuhito Watanabe, Hideki Sunahara, Fumio Teraoka, “ULP: A Location Platform that can Handle Multiple Location Representations”, SAINT2008, Jul 2008",
+            "url": ""
+        }
+    ],
+    "presentations": [
+        {
+            "en": "大谷亘、近藤賢郎、ルークコリー、甲斐賢、植原啓介、手塚悟. “安全な Web サービスの実現にむけた複数プロバイダに跨がる関係性の相互宣言機構”. コンピュータセキュリティシンポジウム 2021. Oct 2021",
+            "ja": "Wataru Ohgai, Takao Kondo, Korry Luke, Satoshi Kai, Keisuke Uehara, Satoru Tezuka. “Mutual Declaration Mechanism of Multi-provider Relationship for Trusted Web Services”. Computer Security Symposium 2021. Oct 2021",
+            "url": ""
+        },
+        {
+            "en": "豊田安信. “組織に最適化したインターネット計測“. JANOG 46 インターネット計測BoF. Aug 2020",
+            "ja": "Yasunobu Toyota. “組織に最適化したインターネット計測“. JANOG 46 インターネット計測BoF. Aug 2020",
+            "url": ""
+        },
+        {
+            "en": "豊田安信. “IPv6シングルスタックネットワークにおけるスケーラブルなIPv4aaS基盤の開発“. 第48回ITRC研究会. Nov 2020",
+            "ja": "Yasunobu Toyota. “IPv6シングルスタックネットワークにおけるスケーラブルなIPv4aaS基盤の開発“. 第48回ITRC研究会. Nov 2020",
+            "url": ""
+        }
+    ],
+    "activities": [
+        {
+            "en": "2020/06/26: Yuma Ueda qualified for MITOU Program.",
+            "ja": "2020/06/26: 本研究室所属の学生である上田侑真が2020年度未踏IT人材発掘・育成事業に採択されました。",
+            "url": "https://www.ipa.go.jp/jinzai/mitou/2020/koubokekka_index.html"
+        },
+        {
+            "en": "2020/04/28: Wataru Ohgai presented at 33rd ISOC-JP Workshop.",
+            "ja": "2020/04/28: 本研究室所属の学生である大谷亘が第三十三回 ISOC-JP ワークショップにおいて発表しました。",
+            "url": "https://www.isoc.jp/wiki.cgi?page=33rd_ISOC_JP_Workshop"
+        }
+    ]
+}
