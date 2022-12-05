@@ -81,10 +81,10 @@
             "name_en": "Wataru Ohgai",
             "url": "",
             "login": "alt",
-            "affiliation": "総合政策学部",
-            "affiliation_en": "PM",
-            "grade": "B4",
-            "grade_en": "B4"
+            "affiliation": "政策・メディア研究科",
+            "affiliation_en": "MAG",
+            "grade": "M1",
+            "grade_en": "M1"
         },
         {
             "list": true,
@@ -173,18 +173,6 @@
         {
             "list": true,
             "icon": "",
-            "name": "竹村 太希",
-            "name_en": "Hiroki Takemura",
-            "url": "",
-            "login": "kekeho",
-            "affiliation": "環境情報学部",
-            "affiliation_en": "EI",
-            "grade": "B2",
-            "grade_en": "B2"
-        },
-        {
-            "list": true,
-            "icon": "",
             "name": "清水 尚希",
             "name_en": "Naoki Shimizu",
             "url": "",
@@ -209,22 +197,22 @@
         {
             "list": true,
             "icon": "",
-            "name": "白崎 亘",
-            "name_en": "Koh Shirasaki",
-            "url": "",
-            "login": "kshirasaki",
-            "affiliation": "環境情報学部",
-            "affiliation_en": "EI",
-            "grade": "B1",
-            "grade_en": "B1"
-        },
-        {
-            "list": true,
-            "icon": "",
             "name": "渡辺 翔音",
             "name_en": "Shoon Watanabe",
             "url": "",
             "login": "shoon",
+            "affiliation": "環境情報学部",
+            "affiliation_en": "EI",
+            "grade": "B2",
+            "grade_en": "B2"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "白崎 亘",
+            "name_en": "Koh Shirasaki",
+            "url": "",
+            "login": "kshirasaki",
             "affiliation": "環境情報学部",
             "affiliation_en": "EI",
             "grade": "B1",
