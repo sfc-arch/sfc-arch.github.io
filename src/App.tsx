@@ -32,7 +32,6 @@ import { HiTranslate } from "react-icons/hi"
 import { IconContext } from "react-icons/lib"
 import { Members } from "./Members"
 import { Publications } from "./Publications"
-import { useToast } from "@chakra-ui/react"
 import theme from "./theme"
 import "@fontsource/biz-udpgothic"
 import "@fontsource/ibm-plex-mono"
@@ -58,17 +57,7 @@ export const App = () => {
     const [load, setLoad] = React.useState(false)
     const [fontLoad, setFontLoad] = React.useState(false)
     const changeLang = () => setEn(!en)
-    const toast = useToast()
     React.useEffect(() => {
-        toast({
-            title: en ? "warning" : "警告",
-            description: en
-                ? "This site is UNOFFICIAL!"
-                : "これは非公式サイトです！",
-            status: "warning",
-            duration: 10000,
-            isClosable: true,
-        })
         if (document.readyState === "complete") {
             //already loaded
             setLoad(true)
