@@ -123,18 +123,18 @@
     ],
     "presentations": [
         {
-            "en": "大谷亘、近藤賢郎、ルークコリー、甲斐賢、植原啓介、手塚悟. “安全な Web サービスの実現にむけた複数プロバイダに跨がる関係性の相互宣言機構”. コンピュータセキュリティシンポジウム 2021. Oct 2021",
-            "ja": "Wataru Ohgai, Takao Kondo, Korry Luke, Satoshi Kai, Keisuke Uehara, Satoru Tezuka. “Mutual Declaration Mechanism of Multi-provider Relationship for Trusted Web Services”. Computer Security Symposium 2021. Oct 2021",
+            "en": "Wataru Ohgai, Takao Kondo, Korry Luke, Satoshi Kai, Keisuke Uehara, Satoru Tezuka. “Mutual Declaration Mechanism of Multi-provider Relationship for Trusted Web Services”. Computer Security Symposium 2021. Oct 2021",
+            "ja": "大谷亘、近藤賢郎、ルークコリー、甲斐賢、植原啓介、手塚悟. “安全な Web サービスの実現にむけた複数プロバイダに跨がる関係性の相互宣言機構”. コンピュータセキュリティシンポジウム 2021. Oct 2021",
             "url": ""
         },
         {
-            "en": "豊田安信. “組織に最適化したインターネット計測“. JANOG 46 インターネット計測BoF. Aug 2020",
-            "ja": "Yasunobu Toyota. “組織に最適化したインターネット計測“. JANOG 46 インターネット計測BoF. Aug 2020",
+            "en": "Yasunobu Toyota. “組織に最適化したインターネット計測“. JANOG 46 インターネット計測BoF. Aug 2020",
+            "ja": "豊田安信. “組織に最適化したインターネット計測“. JANOG 46 インターネット計測BoF. Aug 2020",
             "url": ""
         },
         {
-            "en": "豊田安信. “IPv6シングルスタックネットワークにおけるスケーラブルなIPv4aaS基盤の開発“. 第48回ITRC研究会. Nov 2020",
-            "ja": "Yasunobu Toyota. “IPv6シングルスタックネットワークにおけるスケーラブルなIPv4aaS基盤の開発“. 第48回ITRC研究会. Nov 2020",
+            "en": "Yasunobu Toyota. “IPv6シングルスタックネットワークにおけるスケーラブルなIPv4aaS基盤の開発“. 第48回ITRC研究会. Nov 2020",
+            "ja": "豊田安信. “IPv6シングルスタックネットワークにおけるスケーラブルなIPv4aaS基盤の開発“. 第48回ITRC研究会. Nov 2020",
             "url": ""
         }
     ],
