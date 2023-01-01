@@ -367,8 +367,8 @@ export const App = () => {
                                     marginRight="1"
                                 >
                                     {en
-                                        ? "Tokuda/Murai/Kusumoto/Nakamura/Van Meter/Uehara/Mitsugi/Nakazawa/Takeda Joint Research Project"
-                                        : "徳田・村井・楠本・中村・高汐・バンミーター・植原・三次・中澤・武田合同研究プロジェクト"}
+                                        ? "Murai/Nakamura/Kusumoto/Takashio/Van Meter/Uehara/Mitsugi/Nakazawa/Tezuka/Takeda/Okoshi Joint Research Project"
+                                        : "村井・中村・楠本・高汐・バンミーター・植原・三次・中澤・手塚・武田・大越合同研究プロジェクト"}
                                 </Link>
                                 <GoLinkExternal style={style.icon} />
                             </ListItem>
