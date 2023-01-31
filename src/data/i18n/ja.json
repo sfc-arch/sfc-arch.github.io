@@ -1,0 +1,31 @@
+{
+    "lang": "日本語",
+    "tooltip": {
+        "langSwitcher": "言語を切り替え"
+    },
+    "heading": {
+        "about": "rgrootについて",
+        "topics": "研究トピック",
+        "topicHighSpeed": "高速インターネットアーキテクチャ",
+        "topicNextGeneration": "次世代インターネット基盤技術",
+        "topicIoT": "IoT向け無線通信技術",
+        "members": "メンバー",
+        "publications": "論文、発表、活動等",
+        "contact": "連絡先",
+        "links": "関連リンク"
+    },
+    "text": {
+        "about": "rgroot研究グループは慶應義塾大学湘南藤沢キャンパス徳田・村井合同研究プロジェクト内における研究グループのひとつです。\n研究室ネットワークの運用、ネットワーク技術に関する論文の輪講、各自の研究の推進といった具合に、情報通信技術に関する研究と実ネットワークの運用の両輪で研究活動を行っています。",
+        "topics": "主な研究トピックとして次のような項目が挙げられますが、必ずしもこれらに限定されることはありません。\n各自が柔軟にテーマを設定して取り組んでいます。",
+        "topicHighSpeed": "(ラベルスイッチ技術,コンテンツデリバリネットワーク技術)",
+        "topicNextGeneration": "(ルーティング, IPv6, モバイルインターネット, マルチキャスト, DNS)",
+        "topicIoT": "(LPWA, LoRaWAN)",
+        "members": "",
+        "publications": "クリックで開きます。",
+        "contact": "rgrootの活動についてご質問のある方は、フッターに記載のメールアドレスまでメールをください。",
+        "linkSFC": "慶應義塾大学湘南藤沢キャンパス",
+        "linkRG": "村井・中村・楠本・高汐・バンミーター・植原・三次・中澤・手塚・武田・大越合同研究プロジェクト",
+        "linkMuraiLab": "Internet Research Lab (村井研究室)",
+        "linkWIDE": "WIDE Project"
+    }
+}

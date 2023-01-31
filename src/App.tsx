@@ -21,6 +21,10 @@ import {
     Spinner,
     Fade,
     ScaleFade as SlideFade,
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { TypeAnimation } from "react-type-animation"
@@ -30,8 +34,11 @@ import { GiNetworkBars } from "react-icons/gi"
 import { GoLinkExternal } from "react-icons/go"
 import { HiTranslate } from "react-icons/hi"
 import { IconContext } from "react-icons/lib"
+import { useTranslation } from "react-i18next"
 import { Members } from "./Members"
 import { Publications } from "./Publications"
+import { langList } from "./data/i18n/i18n"
+import i18n from "i18next"
 import theme from "./theme"
 import "@fontsource/biz-udpgothic"
 import "@fontsource/ibm-plex-mono"
@@ -52,11 +59,18 @@ const style: { [key: string]: React.CSSProperties } = {
     },
 }
 
+
+
 export const App = () => {
     const [en, setEn] = React.useState(false)
     const [load, setLoad] = React.useState(false)
     const [fontLoad, setFontLoad] = React.useState(false)
-    const changeLang = () => setEn(!en)
+    const changeLang = (lang: string) => {
+        i18n.changeLanguage(lang)
+        setEn(lang === "ja" ? false : true)
+    }
+    const langElems = langList.map((e) => { return <MenuItem onClick={() => changeLang(e.key)}>{e.value}</MenuItem> })
+    const { t } = useTranslation()
     React.useEffect(() => {
         if (document.readyState === "complete") {
             //already loaded
@@ -89,7 +103,7 @@ export const App = () => {
                     </Center>
                 </Fade>
                 <SlideFade in={load && fontLoad}>
-                    <Box textAlign="left" textColor="whiteAlpha.800">
+                    <Box textAlign="left">
                         <Image
                             src="output.jpg"
                             pos="absolute"
@@ -98,26 +112,27 @@ export const App = () => {
                         ></Image>
                         <Grid minH="95vh" p={3}>
                             <Box justifySelf="flex-end">
-                                <ColorModeSwitcher />
-                                <Tooltip
-                                    label={
-                                        en
-                                            ? "言語を日本語に変更"
-                                            : "Change language to english"
-                                    }
-                                >
-                                    <IconButton
-                                        aria-label="language"
-                                        icon={<HiTranslate />}
-                                        variant="ghost"
-                                        onClick={changeLang}
-                                    />
+                                <ColorModeSwitcher textColor="whiteAlpha.800"/>
+                                <Tooltip label={t("tooltip.langSwitcher")}>
+                                    <Menu>
+                                        <MenuButton
+                                            as={IconButton}
+                                            aria-label="language"
+                                            icon={<HiTranslate />}
+                                            variant="ghost"
+                                            textColor="whiteAlpha.800"
+                                        />
+                                        <MenuList>
+                                            {langElems}
+                                        </MenuList>
+                                    </Menu>
                                 </Tooltip>
                             </Box>
 
                             <VStack
                                 alignItems="left"
                                 marginTop={["10", "0", "0"]}
+                                textColor="whiteAlpha.800"
                             >
                                 <Box
                                     fontSize="4xl"
@@ -193,7 +208,7 @@ export const App = () => {
                                     fontSize={["4xl", null, "6xl"]}
                                     textAlign="center"
                                 >
-                                    {en ? "About rgroot" : "rgrootについて"}
+                                    {t("heading.about")}
                                 </Heading>
                             </CardHeader>
                             <CardBody>
@@ -202,22 +217,16 @@ export const App = () => {
                                     textAlign="center"
                                     whiteSpace="pre-line"
                                 >
-                                    {en
-                                        ? "rgroot is one of the research/study groups in the Tokuda/Murai Joint Research Project at Keio University Shonan Fujisawa Campus.\nOur research activities consist of both research on information and communication technology and actual network operation, including laboratory network operation, paper lectures on network technology, and promotion of individual research.\nOur group is responsible for managing the network used by the joint research project as a whole."
-                                        : "rgroot研究グループは慶應義塾大学湘南藤沢キャンパス徳田・村井合同研究プロジェクト内における研究グループのひとつです。\n研究室ネットワークの運用、ネットワーク技術に関する論文の輪講、各自の研究の推進といった具合に、情報通信技術に関する研究と実ネットワークの運用の両輪で研究活動を行っています。"}
+                                    {t("text.about")}
                                 </Text>
                             </CardBody>
                         </Card>
                     </Box>
                     <Box marginTop="20" paddingX={["4", null, "10"]}>
                         <Heading as="h2" fontSize="4xl" paddingBottom="4">
-                            {en ? "Research topics" : "研究トピック"}
+                            {t("heading.topics")}
                         </Heading>
-                        <Text whiteSpace="pre-line">
-                            {en
-                                ? "Our main research topics include the following, but students are not limited to only these.\nMembers are free to choose and tackle a topic of their choice. "
-                                : "主な研究トピックとして次のような項目が挙げられますが、必ずしもこれらに限定されることはありません。\n各自が柔軟にテーマを設定して取り組んでいます。"}
-                        </Text>
+                        <Text whiteSpace="pre-line">{t("text.topics")}</Text>
                         <IconContext.Provider value={{ size: "100px" }}>
                             <SimpleGrid
                                 columns={[1, null, 3]}
@@ -239,14 +248,10 @@ export const App = () => {
                                                 fontSize={"sm"}
                                                 textAlign="center"
                                             >
-                                                {en
-                                                    ? "High-speed internet technology"
-                                                    : "高速インターネットアーキテクチャ"}
+                                                {t("heading.topicHighSpeed")}
                                             </Heading>
                                             <Text align="center">
-                                                {en
-                                                    ? "(label switching, content delivery network technology)"
-                                                    : "(ラベルスイッチ技術,コンテンツデリバリネットワーク技術)"}
+                                                {t("text.topicHighSpeed")}
                                             </Text>
                                         </VStack>
                                     </CardBody>
@@ -266,14 +271,12 @@ export const App = () => {
                                                 fontSize="sm"
                                                 textAlign="center"
                                             >
-                                                {en
-                                                    ? "Next-generation internet infrastructure technology"
-                                                    : "次世代インターネット基盤技術"}
+                                                {t(
+                                                    "heading.topicNextGeneration"
+                                                )}
                                             </Heading>
                                             <Text align="center">
-                                                {en
-                                                    ? "(routing, IPv6, mobile internet, multicast, DNS)"
-                                                    : "(ルーティング, IPv6, モバイルインターネット, マルチキャスト, DNS)"}
+                                                {t("text.topicNextGeneration")}
                                             </Text>
                                         </VStack>
                                     </CardBody>
@@ -293,12 +296,10 @@ export const App = () => {
                                                 fontSize="sm"
                                                 textAlign="center"
                                             >
-                                                {en
-                                                    ? "Wireless networking for IoT devices"
-                                                    : "IoT向け無線通信技術"}
+                                                {t("heading.topicIoT")}
                                             </Heading>
                                             <Text align="center">
-                                                (LPWA, LoRaWAN)
+                                                {t("text.topicIoT")}
                                             </Text>
                                         </VStack>
                                     </CardBody>
@@ -308,35 +309,23 @@ export const App = () => {
                     </Box>
                     <Box marginTop="20" paddingX={["4", null, "10"]}>
                         <Heading as="h2" fontSize="4xl" paddingBottom="4">
-                            {en ? "Members" : "メンバー"}
+                            {t("heading.members")}
                         </Heading>
-                        <Text whiteSpace="pre-wrap">
-                            {en
-                                ? "PM: Faculty of Policy Management\nEI: Faculty of Environment and Infromation Studies\nMAG: Graduate School of Media and Governance"
-                                : ""}
-                        </Text>
+                        <Text whiteSpace="pre-wrap">{t("text.members")}</Text>
                         <Members en={en} />
                     </Box>
                     <Box marginTop="20" paddingX={["4", null, "10"]}>
                         <Heading as="h2" fontSize="4xl" paddingBottom="4">
-                            {en
-                                ? "Publication, Presentation, Activity"
-                                : "論文、発表、活動等"}
+                            {t("heading.publications")}
                         </Heading>
-                        <Text paddingBottom="4">
-                            {en ? "Click to open." : "クリックで開きます。"}
-                        </Text>
+                        <Text paddingBottom="4">{t("text.publications")}</Text>
                         <Publications en={en} />
                     </Box>
                     <Box marginTop="20" paddingX={["4", null, "10"]}>
                         <Heading as="h2" fontSize="4xl" paddingBottom="4">
-                            {en ? "Contact us" : "連絡先"}
+                            {t("heading.contact")}
                         </Heading>
-                        <Text>
-                            {en
-                                ? "Those with interest in rgroot's activities should contact us by emailing to the mail address in the footer of this page."
-                                : "rgrootの活動についてご質問のある方は、フッターに記載のメールアドレスまでメールをください。"}
-                        </Text>
+                        <Text>{t("text.contact")}</Text>
                     </Box>
                     <Box
                         bg="#2D3748"
@@ -345,7 +334,7 @@ export const App = () => {
                         padding={["4", null, "10"]}
                     >
                         <Heading as="h2" fontSize="20" marginBottom="6">
-                            {en ? "Related links" : "関連リンク"}
+                            {t("heading.links")}
                         </Heading>
                         <UnorderedList>
                             <ListItem>
@@ -354,9 +343,7 @@ export const App = () => {
                                     href="https://www.sfc.keio.ac.jp/"
                                     marginRight="1"
                                 >
-                                    {en
-                                        ? "Keio University Shonan Fujisawa Campus"
-                                        : "慶應義塾大学湘南藤沢キャンパス"}
+                                    {t("text.linkSFC")}
                                 </Link>
                                 <GoLinkExternal style={style.icon} />
                             </ListItem>
@@ -366,9 +353,7 @@ export const App = () => {
                                     href="https://rg.sfc.keio.ac.jp/"
                                     marginRight="1"
                                 >
-                                    {en
-                                        ? "Murai/Nakamura/Kusumoto/Takashio/Van Meter/Uehara/Mitsugi/Nakazawa/Tezuka/Takeda/Okoshi Joint Research Project"
-                                        : "村井・中村・楠本・高汐・バンミーター・植原・三次・中澤・手塚・武田・大越合同研究プロジェクト"}
+                                    {t("text.linkRG")}
                                 </Link>
                                 <GoLinkExternal style={style.icon} />
                             </ListItem>
@@ -378,9 +363,7 @@ export const App = () => {
                                     href="https://www.sfc.wide.ad.jp/"
                                     marginRight="1"
                                 >
-                                    {en
-                                        ? "Internet Research Lab (Jun Murai Laboratory)"
-                                        : "Internet Research Lab (村井研究室)"}
+                                    {t("text.linkMuraiLab")}
                                 </Link>
                                 <GoLinkExternal style={style.icon} />
                             </ListItem>
@@ -390,7 +373,7 @@ export const App = () => {
                                     href="https://www.wide.ad.jp/"
                                     marginRight="1"
                                 >
-                                    WIDE Project
+                                    {t("text.linkWIDE")}
                                 </Link>
                                 <GoLinkExternal style={style.icon} />
                             </ListItem>
