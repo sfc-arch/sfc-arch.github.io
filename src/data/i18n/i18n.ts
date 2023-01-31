@@ -3,14 +3,14 @@ import ja from "./ja.json"
 
 export const resources = {
     ja: {
-      translation: ja
+        translation: ja,
     },
     en: {
-      translation: en
-    }
+        translation: en,
+    },
 }
 
 export const langList = [
-    {key: "ja", value: ja.lang},
-    {key: "en", value: en.lang}
+    { key: "ja", value: ja.lang },
+    { key: "en", value: en.lang },
 ]

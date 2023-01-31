@@ -59,8 +59,6 @@ const style: { [key: string]: React.CSSProperties } = {
     },
 }
 
-
-
 export const App = () => {
     const [en, setEn] = React.useState(false)
     const [load, setLoad] = React.useState(false)
@@ -69,7 +67,9 @@ export const App = () => {
         i18n.changeLanguage(lang)
         setEn(lang === "ja" ? false : true)
     }
-    const langElems = langList.map((e) => { return <MenuItem onClick={() => changeLang(e.key)}>{e.value}</MenuItem> })
+    const langElems = langList.map((e) => {
+        return <MenuItem onClick={() => changeLang(e.key)}>{e.value}</MenuItem>
+    })
     const { t } = useTranslation()
     React.useEffect(() => {
         if (document.readyState === "complete") {
@@ -112,7 +112,7 @@ export const App = () => {
                         ></Image>
                         <Grid minH="95vh" p={3}>
                             <Box justifySelf="flex-end">
-                                <ColorModeSwitcher textColor="whiteAlpha.800"/>
+                                <ColorModeSwitcher textColor="whiteAlpha.800" />
                                 <Tooltip label={t("tooltip.langSwitcher")}>
                                     <Menu>
                                         <MenuButton
@@ -122,9 +122,7 @@ export const App = () => {
                                             variant="ghost"
                                             textColor="whiteAlpha.800"
                                         />
-                                        <MenuList>
-                                            {langElems}
-                                        </MenuList>
+                                        <MenuList>{langElems}</MenuList>
                                     </Menu>
                                 </Tooltip>
                             </Box>
