@@ -35,20 +35,8 @@
             "login": "koluke",
             "affiliation": "政策・メディア研究科",
             "affiliation_en": "MAG",
-            "grade": "D2",
-            "grade_en": "D2"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "橘 直雪",
-            "name_en": "Naoyuki Tachibana",
-            "url": "",
-            "login": "nyatsume",
-            "affiliation": "政策・メディア研究科",
-            "affiliation_en": "MAG",
-            "grade": "M2",
-            "grade_en": "M2"
+            "grade": "D3",
+            "grade_en": "D3"
         },
         {
             "list": true,
@@ -59,8 +47,8 @@
             "login": "sioremon",
             "affiliation": "政策・メディア研究科",
             "affiliation_en": "MAG",
-            "grade": "M1",
-            "grade_en": "M1"
+            "grade": "M2",
+            "grade_en": "M2"
         },
         {
             "list": true,
@@ -71,8 +59,8 @@
             "login": "trustywolf",
             "affiliation": "政策・メディア研究科",
             "affiliation_en": "MAG",
-            "grade": "M1",
-            "grade_en": "M1"
+            "grade": "M2",
+            "grade_en": "M2"
         },
         {
             "list": true,
@@ -93,22 +81,10 @@
             "name_en": "Seiki Makino",
             "url": "",
             "login": "kino-ma",
-            "affiliation": "環境情報学部",
-            "affiliation_en": "EI",
-            "grade": "B4",
-            "grade_en": "B4"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "渡辺 洸希",
-            "name_en": "Koki Watanabe",
-            "url": "",
-            "login": "nkpoid",
-            "affiliation": "総合政策学部",
-            "affiliation_en": "PM",
-            "grade": "B4",
-            "grade_en": "B4"
+            "affiliation": "政策・メディア研究科",
+            "affiliation_en": "MAG",
+            "grade": "M1",
+            "grade_en": "M1"
         },
         {
             "list": true,
@@ -117,10 +93,10 @@
             "name_en": "Takumi Ishihara",
             "url": "",
             "login": "takuan",
-            "affiliation": "総合政策学部",
-            "affiliation_en": "PM",
-            "grade": "B4",
-            "grade_en": "B4"
+            "affiliation": "政策・メディア研究科",
+            "affiliation_en": "MAG",
+            "grade": "M1",
+            "grade_en": "M1"
         },
         {
             "list": true,
@@ -131,8 +107,8 @@
             "login": "sabaniki",
             "affiliation": "環境情報学部",
             "affiliation_en": "EI",
-            "grade": "B3",
-            "grade_en": "B3"
+            "grade": "B4",
+            "grade_en": "B4"
         },
         {
             "list": true,
@@ -143,8 +119,8 @@
             "login": "yamada",
             "affiliation": "総合政策学部",
             "affiliation_en": "PM",
-            "grade": "B3",
-            "grade_en": "B3"
+            "grade": "B4",
+            "grade_en": "B4"
         },
         {
             "list": true,
@@ -155,8 +131,8 @@
             "login": "daiya",
             "affiliation": "環境情報学部",
             "affiliation_en": "EI",
-            "grade": "B2",
-            "grade_en": "B2"
+            "grade": "B3",
+            "grade_en": "B3"
         },
         {
             "list": true,
@@ -167,20 +143,8 @@
             "login": "hayabusa",
             "affiliation": "環境情報学部",
             "affiliation_en": "EI",
-            "grade": "B2",
-            "grade_en": "B2"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "清水 尚希",
-            "name_en": "Naoki Shimizu",
-            "url": "",
-            "login": "nao-ki",
-            "affiliation": "総合政策学部",
-            "affiliation_en": "PM",
-            "grade": "B2",
-            "grade_en": "B2"
+            "grade": "B3",
+            "grade_en": "B3"
         },
         {
             "list": true,
@@ -191,8 +155,20 @@
             "login": "umechan",
             "affiliation": "総合政策学部",
             "affiliation_en": "PM",
-            "grade": "B2",
-            "grade_en": "B2"
+            "grade": "B3",
+            "grade_en": "B3"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "舟山 純平",
+            "name_en": "Jumpei Funayama",
+            "url": "",
+            "login": "peijun",
+            "affiliation": "環境情報学部",
+            "affiliation_en": "EI",
+            "grade": "B3",
+            "grade_en": "B3"
         },
         {
             "list": true,
@@ -201,6 +177,18 @@
             "name_en": "Shoon Watanabe",
             "url": "",
             "login": "shoon",
+            "affiliation": "環境情報学部",
+            "affiliation_en": "EI",
+            "grade": "B2",
+            "grade_en": "B2"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "河邉 辰大",
+            "name_en": "Tatsuhiro Kawabe",
+            "url": "",
+            "login": "tatsuhiro",
             "affiliation": "環境情報学部",
             "affiliation_en": "EI",
             "grade": "B2",
