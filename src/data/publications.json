@@ -1,9 +1,19 @@
 {
     "papers": [
         {
+            "en": "Yasunobu TOYOTA, Wataru MISHIMA, Koichiro KANAYA, & Osamu NAKAMURA (2023). Performance Aware Egress Path Discovery for Content Provider with SRv6 Egress Peer Engineering. IEICE Transactions on Information and Systems, E106.D(5), 927-939.",
+            "ja": "Yasunobu TOYOTA, Wataru MISHIMA, Koichiro KANAYA, & Osamu NAKAMURA (2023). Performance Aware Egress Path Discovery for Content Provider with SRv6 Egress Peer Engineering. IEICE Transactions on Information and Systems, E106.D(5), 927-939.",
+            "url": "https://www.jstage.jst.go.jp/article/transinf/E106.D/5/E106.D_2022NTP0003/_article/-char/en"
+        },
+        {
+            "en": "K. Kanaya, Y. Toyota, W. Mishima, H. Shirokura and H. Esaki, “QoE-Aware Content Oriented Path Optimization Framework with Egress Peer Engineering,” 2022 Tenth International Symposium on Computing and Networking (CANDAR), Himeji, Japan, 2022, pp. 36-45, doi: 10.1109/CANDAR57322.2022.00013.",
+            "ja": "K. Kanaya, Y. Toyota, W. Mishima, H. Shirokura and H. Esaki, “QoE-Aware Content Oriented Path Optimization Framework with Egress Peer Engineering,” 2022 Tenth International Symposium on Computing and Networking (CANDAR), Himeji, Japan, 2022, pp. 36-45, doi: 10.1109/CANDAR57322.2022.00013.",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10035146"
+        },
+        {
             "en": "Yasunobu Toyota, Osamu Nakamura, “Dynamic Control Method of Explicit Address Mapping Table in IPv6 Single-Stack Network” 2020 21th Asia-Pacific Network Operations and Management Symposium (APNOMS), Daegu, Korea, 2020",
             "ja": "Yasunobu Toyota, Osamu Nakamura, “Dynamic Control Method of Explicit Address Mapping Table in IPv6 Single-Stack Network” 2020 21th Asia-Pacific Network Operations and Management Symposium (APNOMS), Daegu, Korea, 2020",
-            "url": ""
+            "url": "https://ieeexplore.ieee.org/abstract/document/9237034"
         },
         {
             "en": "Tomohiro Nishida, Keisuke Uehara, Naoko Takahashi, Nakano Yoshiaki, “CBT System V2 and Trial Entrance Examination of “Information” forUniversities”, 情報処理学会情報教育シンポジウム2019論文集, pp.226-233, Aug, 2019",
@@ -122,6 +132,16 @@
         }
     ],
     "presentations": [
+        {
+            "en": "Ray Atarashi, Yasunobu Toyota, and Yoshiaki Kitaguchi. Survey of the IPv6 Internet Environment from a User Point of View. 研究報告インターネットと運用技術 (IOT), 2022(13), 1-6.",
+            "ja": "新麗, 豊田安信, & 北口善明. (2022). ユーザ視点による IPv6 インターネット環境の調査. 研究報告インターネットと運用技術 (IOT), 2022(13), 1-6.",
+            "url": "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=216769&item_no=1&page_id=13&block_id=8"
+        },
+        {
+            "en": "Yasunobu Toyota, et al. Analysis and Consideration of the IPv6 Internet in Japan using the Internet Quality Measurement Web Service, 研究報告インターネットと運用技術 (IOT), 2021(32), 1-6.",
+            "ja": "豊田安信, 岩本裕真, 加藤良輔, 北口善明, 中川あき, 永見健一, & 西野大. (2021). 通信品質計測 Web サービスを活用した日本の IPv6 インターネット環境の分析と考察. 研究報告インターネットと運用技術 (IOT), 2021(32), 1-6.",
+            "url": "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=209527&item_no=1&page_id=13&block_id=8"
+        },
         {
             "en": "Wataru Ohgai, Takao Kondo, Korry Luke, Satoshi Kai, Keisuke Uehara, Satoru Tezuka. “Mutual Declaration Mechanism of Multi-provider Relationship for Trusted Web Services”. Computer Security Symposium 2021. Oct 2021",
             "ja": "大谷亘、近藤賢郎、ルークコリー、甲斐賢、植原啓介、手塚悟. “安全な Web サービスの実現にむけた複数プロバイダに跨がる関係性の相互宣言機構”. コンピュータセキュリティシンポジウム 2021. Oct 2021",
