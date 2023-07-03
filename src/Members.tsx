@@ -111,7 +111,6 @@ const Member = (props: { data: SCHEMA; en: boolean }) => (
         <Avatar
             name={props.en ? props.data.name_en : props.data.name}
             src={props.data.icon ? props.data.icon : gravatar(props.data.login)}
-            display="inline-block"
             verticalAlign="middle"
             size="xs"
             marginRight="1"
