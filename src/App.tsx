@@ -97,9 +97,22 @@ export const App = () => {
                             size="xl"
                             marginRight="10"
                         />
-                        <Text color="blackAlpha.800" fontSize="2xl">
-                            Keio SFC
-                        </Text>
+                        <Box
+                            fontSize="5xl"
+                            lineHeight="50px"
+                            color="#C9E9FA"
+                            fontFamily={"sans-serif"}
+                        >
+                            {"> SFC-"}
+                            <Heading
+                                fontSize="5xl"
+                                as="h1"
+                                display="inline-block"
+                                color="#0369A1"
+                            >
+                                {"RG"}
+                            </Heading>
+                        </Box>
                     </Center>
                 </Fade>
                 <SlideFade in={load && fontLoad}>
