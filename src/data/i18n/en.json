@@ -1,0 +1,31 @@
+{
+    "lang": "English",
+    "tooltip": {
+        "langSwitcher": "Change Language"
+    },
+    "heading": {
+        "about": "About rgroot",
+        "topics": "Research topics",
+        "topicHighSpeed": "High-speed internet technology",
+        "topicNextGeneration": "Next-generation internet infrastructure technology",
+        "topicIoT": "Wireless networking for IoT devices",
+        "members": "Members",
+        "publications": "Publication, Presentation, Activity",
+        "contact": "Contact us",
+        "links": "Related links"
+    },
+    "text": {
+        "about": "rgroot is one of the research/study groups in the Tokuda/Murai Joint Research Project at Keio University Shonan Fujisawa Campus.\nOur research activities consist of both research on information and communication technology and actual network operation, including laboratory network operation, paper lectures on network technology, and promotion of individual research.\nOur group is responsible for managing the network used by the joint research project as a whole.",
+        "topics": "Our main research topics include the following, but students are not limited to only these.\nMembers are free to choose and tackle a topic of their choice. ",
+        "topicHighSpeed": "(label switching, content delivery network technology)",
+        "topicNextGeneration": "(routing, IPv6, mobile internet, multicast, DNS)",
+        "topicIoT": "(LPWA, LoRaWAN)",
+        "members": "PM: Faculty of Policy Management\nEI: Faculty of Environment and Infromation Studies\nMAG: Graduate School of Media and Governance",
+        "publications": "Click to open.",
+        "contact": "Those with interest in rgroot's activities should contact us by emailing to the mail address in the footer of this page.",
+        "linkSFC": "Keio University Shonan Fujisawa Campus",
+        "linkRG": "Murai/Nakamura/Kusumoto/Takashio/Van Meter/Uehara/Mitsugi/Nakazawa/Tezuka/Takeda/Okoshi Joint Research Project",
+        "linkMuraiLab": "Internet Research Lab (Jun Murai Laboratory)",
+        "linkWIDE": "WIDE Project"
+    }
+}
