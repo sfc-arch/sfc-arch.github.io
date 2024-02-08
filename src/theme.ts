@@ -17,6 +17,16 @@ const theme = extendTheme({
         body: `'BIZ UDPGothic', sans-serif`,
         mono: `'IBM Plex Mono', monospace`,
     },
+    styles: {
+        global: (props: { colorMode: string }) => ({
+            body: {
+                background: props.colorMode === "dark" ? "#101010" : "white",
+            },
+            // a: {
+            //     color: props.colorMode === "dark" ? "teal.300" : "teal.500",
+            // },
+        }),
+    },
 })
 
 export default theme

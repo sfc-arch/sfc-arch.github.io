@@ -27,10 +27,7 @@ import {
     MenuItem,
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { TypeAnimation } from "react-type-animation"
-import { BiNetworkChart } from "react-icons/bi"
-import { AiOutlineCloudServer, AiOutlineMail } from "react-icons/ai"
-import { GiNetworkBars } from "react-icons/gi"
+import { AiOutlineMail } from "react-icons/ai"
 import { GoLinkExternal } from "react-icons/go"
 import { HiTranslate } from "react-icons/hi"
 import { IconContext } from "react-icons/lib"
@@ -42,6 +39,14 @@ import i18n from "i18next"
 import theme from "./theme"
 import "@fontsource/biz-udpgothic"
 import "@fontsource/ibm-plex-mono"
+import {
+    LuCar,
+    LuCircuitBoard,
+    LuCode,
+    LuMusic,
+    LuNetwork,
+    LuTerminal,
+} from "react-icons/lu"
 
 const style: { [key: string]: React.CSSProperties } = {
     image: {
@@ -58,6 +63,54 @@ const style: { [key: string]: React.CSSProperties } = {
         verticalAlign: "middle",
     },
 }
+
+const topics = [
+    {
+        icon: <LuCircuitBoard />,
+        name: "FPGA",
+        text: null,
+    },
+    {
+        icon: <LuCode />,
+        name: "Programming Language",
+        text: null,
+    },
+    {
+        icon: <LuTerminal />,
+        name: "OS",
+        text: null,
+    },
+    {
+        icon: <LuMusic />,
+        name: "Audio",
+        text: null,
+    },
+    {
+        icon: <LuCar />,
+        name: "Mobility",
+        text: null,
+    },
+    {
+        icon: <LuNetwork />,
+        name: "Overlay Network",
+        text: null,
+    },
+    {
+        icon: null,
+        name: "Internet Communication",
+        text: null,
+    },
+    {
+        icon: null,
+        name: "Low-Latency IP Video Transmission",
+        text: null,
+    },
+    {
+        icon: null,
+        name: "Drone",
+        text: null,
+    },
+]
 
 export const App = () => {
     const [en, setEn] = React.useState(false)
@@ -169,7 +222,7 @@ export const App = () => {
                                     paddingBottom={["100", "200", null]}
                                     lineHeight="150px"
                                 >
-                                    rgroot
+                                    Arch
                                 </Heading>
                                 <Box marginBottom="50" minH="5rem">
                                     <VStack verticalAlign="middle">
@@ -183,19 +236,7 @@ export const App = () => {
                                             whiteSpace="nowrap"
                                             overflow="hidden"
                                         >
-                                            <TypeAnimation
-                                                sequence={[
-                                                    "build",
-                                                    3000,
-                                                    "operate",
-                                                    3000,
-                                                ]}
-                                                cursor={true}
-                                                repeat={Infinity}
-                                                speed={60}
-                                                wrapper="span"
-                                            ></TypeAnimation>
-                                            <Text as="span">our network.</Text>
+                                            Love and Implementation
                                         </Text>
                                     </VStack>
                                 </Box>
@@ -211,23 +252,17 @@ export const App = () => {
                             padding={["2", null, "10"]}
                             variant="filled"
                             size="lg"
-                            align="center"
                         >
                             <CardHeader>
                                 <Heading
                                     as="h2"
                                     fontSize={["4xl", null, "6xl"]}
-                                    textAlign="center"
                                 >
                                     {t("heading.about")}
                                 </Heading>
                             </CardHeader>
                             <CardBody>
-                                <Text
-                                    fontSize="xl"
-                                    textAlign="center"
-                                    whiteSpace="pre-line"
-                                >
+                                <Text fontSize="xl" whiteSpace="pre-line">
                                     {t("text.about")}
                                 </Text>
                             </CardBody>
@@ -244,77 +279,30 @@ export const App = () => {
                                 spacing={10}
                                 marginTop="10"
                             >
-                                <Card
-                                    align="center"
-                                    variant="outline"
-                                    size="sm"
-                                >
-                                    <CardHeader>
-                                        <AiOutlineCloudServer></AiOutlineCloudServer>
-                                    </CardHeader>
-                                    <CardBody>
-                                        <VStack>
-                                            <Heading
-                                                as="h3"
-                                                fontSize={"sm"}
-                                                textAlign="center"
-                                            >
-                                                {t("heading.topicHighSpeed")}
-                                            </Heading>
-                                            <Text align="center">
-                                                {t("text.topicHighSpeed")}
-                                            </Text>
-                                        </VStack>
-                                    </CardBody>
-                                </Card>
-                                <Card
-                                    align="center"
-                                    variant="outline"
-                                    size="sm"
-                                >
-                                    <CardHeader>
-                                        <BiNetworkChart></BiNetworkChart>
-                                    </CardHeader>
-                                    <CardBody>
-                                        <VStack>
-                                            <Heading
-                                                as="h3"
-                                                fontSize="sm"
-                                                textAlign="center"
-                                            >
-                                                {t(
-                                                    "heading.topicNextGeneration"
-                                                )}
-                                            </Heading>
-                                            <Text align="center">
-                                                {t("text.topicNextGeneration")}
-                                            </Text>
-                                        </VStack>
-                                    </CardBody>
-                                </Card>
-                                <Card
-                                    align="center"
-                                    variant="outline"
-                                    size="sm"
-                                >
-                                    <CardHeader>
-                                        <GiNetworkBars></GiNetworkBars>
-                                    </CardHeader>
-                                    <CardBody>
-                                        <VStack>
-                                            <Heading
-                                                as="h3"
-                                                fontSize="sm"
-                                                textAlign="center"
-                                            >
-                                                {t("heading.topicIoT")}
-                                            </Heading>
-                                            <Text align="center">
-                                                {t("text.topicIoT")}
-                                            </Text>
-                                        </VStack>
-                                    </CardBody>
-                                </Card>
+                                {topics.map((topic) => (
+                                    <Card
+                                        key={topic.name}
+                                        align="center"
+                                        variant="outline"
+                                        size="sm"
+                                    >
+                                        <CardHeader>{topic.icon}</CardHeader>
+                                        <CardBody>
+                                            <VStack>
+                                                <Heading
+                                                    as="h3"
+                                                    fontSize={"sm"}
+                                                    textAlign="center"
+                                                >
+                                                    {topic.name}
+                                                </Heading>
+                                                <Text align="center">
+                                                    {topic.text}
+                                                </Text>
+                                            </VStack>
+                                        </CardBody>
+                                    </Card>
+                                ))}
                             </SimpleGrid>
                         </IconContext.Provider>
                     </Box>
@@ -339,7 +327,7 @@ export const App = () => {
                         <Text>{t("text.contact")}</Text>
                     </Box>
                     <Box
-                        bg="#2D3748"
+                        bg="#202020"
                         color="white"
                         marginTop="10"
                         padding={["4", null, "10"]}
@@ -390,17 +378,17 @@ export const App = () => {
                             </ListItem>
                         </UnorderedList>
                         <VStack marginTop="10">
-                            <Text>©2022 SFC-RG / rgroot</Text>
+                            <Text>©2022 SFC-RG / Arch</Text>
                             <Box>
                                 <AiOutlineMail
                                     style={style.icon}
                                 ></AiOutlineMail>
                                 <Link
                                     color="teal.500"
-                                    href="mailto:rgroot@sfc.wide.ad.jp"
+                                    href="mailto:arch@sfc.wide.ad.jp"
                                     marginLeft="1"
                                 >
-                                    rgroot@sfc.wide.ad.jp
+                                    arch@sfc.wide.ad.jp
                                 </Link>
                             </Box>
                         </VStack>
