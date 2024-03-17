@@ -154,6 +154,7 @@ export const App = () => {
                                             icon={<HiTranslate />}
                                             variant="ghost"
                                             textColor="whiteAlpha.800"
+                                            size="lg"
                                         />
                                         <MenuList>{langElems}</MenuList>
                                     </Menu>
