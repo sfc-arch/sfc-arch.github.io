@@ -161,18 +161,17 @@ export const App = () => {
                                 marginTop={["10", "0", "0"]}
                             >
                                 <Box
-                                    fontSize="4xl"
+                                    fontSize="5xl"
                                     paddingLeft="14vw"
                                     lineHeight="50px"
                                     color="white"
                                 >
-                                    {"> SFC-"}
                                     <Heading
-                                        fontSize="4xl"
+                                        fontSize="5xl"
                                         as="h1"
                                         display="inline-block"
                                     >
-                                        {"RG"}
+                                        {"> SFC-RG"}
                                     </Heading>
                                 </Box>
 
