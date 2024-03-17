@@ -35,6 +35,8 @@ const createRules = () => {
     rules = rules.concat(members.faculties.map((e) => e.name_en))
     rules = rules.concat(members.students.map((e) => e.name))
     rules = rules.concat(members.students.map((e) => e.name_en))
+    rules = rules.concat(members.alumnus.map((e) => e.name))
+    rules = rules.concat(members.alumnus.map((e) => e.name_en))
     // AaaBbb
     rules = rules.concat(
         members.faculties.map((e) => e.name.replace(/\s+/g, ""))
@@ -47,6 +49,10 @@ const createRules = () => {
     )
     rules = rules.concat(
         members.students.map((e) => e.name_en.replace(/\s+/g, ""))
+    )
+    rules = rules.concat(members.alumnus.map((e) => e.name.replace(/\s+/g, "")))
+    rules = rules.concat(
+        members.alumnus.map((e) => e.name_en.replace(/\s+/g, ""))
     )
     // Aaa BBB
     rules = rules.concat(
