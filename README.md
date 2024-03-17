@@ -1,6 +1,6 @@
-# sfc-arch.github.io
+# rgroot-site
 
-Arch official website, originally developed by [hayabusa](https://github.com/h2yk), modified by hotaka, cyan.  
+rgroot official website, developed by [hayabusa](https://github.com/h2yk).  
 Master brunch build will be deployed to the link in the repo description.
 
 ## Those who want to edit members / publications
@@ -12,7 +12,7 @@ You don't have to learn and write HTML anymore :)
 
 #### `members.json`
 
-faculties and students are all has same schema.
+faculties and students and alumni and alumnae are all has same schema.
 
 | key              | value                                                                                                |
 | :--------------- | :--------------------------------------------------------------------------------------------------- |
