@@ -39,6 +39,16 @@
         {
             "list": true,
             "icon": "",
+            "name": "石川 達敬",
+            "name_en": "Tatsunori Ishikawa",
+            "url": "",
+            "login": "tatsu",
+            "grade": "M2",
+            "grade_en": "M2"
+        },
+        {
+            "list": true,
+            "icon": "",
             "name": "柚山 大哉",
             "name_en": "Daiya Yuyama",
             "url": "",
