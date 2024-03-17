@@ -39,14 +39,6 @@ import i18n from "i18next"
 import theme from "./theme"
 import "@fontsource/biz-udpgothic"
 import "@fontsource/ibm-plex-mono"
-import {
-    LuCar,
-    LuCircuitBoard,
-    LuCode,
-    LuMusic,
-    LuNetwork,
-    LuTerminal,
-} from "react-icons/lu"
 
 const style: { [key: string]: React.CSSProperties } = {
     image: {
