@@ -1,13 +1,13 @@
 {
     "papers": [
         {
-            "en": "Fumiaki MIZUNO, Takeshi MATSUYA, Osamu NAKAMURA. Design and Implementation of Low-Latency Video Transmission for Racing Drones. IEICE Technical Report, vol. 122, no. 15, CQ2022-14, pp. 74-79, May, 2022",
-            "ja": "水野史暁、松谷健史、中村修、\"レースドローン向け低遅延IP映像伝送システムの設計と実装\"、信学技報、vol. 122、no. 15、CQ2022-14、pp.74-79、2022年5月",
+            "en": "Fumiaki MIZUNO, Takeshi MATSUYA, Osamu NAKAMURA. \"Design and Implementation of Low-Latency Video Transmission for Racing Drones\". IEICE Technical Report, vol. 122, no. 15, CQ2022-14, pp. 74-79, May 2022",
+            "ja": "水野史暁，松谷健史，中村修，\"レースドローン向け低遅延IP映像伝送システムの設計と実装\"，信学技報、vol. 122、no. 15、CQ2022-14，pp.74-79，2022年5月",
             "url": "https://ken.ieice.org/ken/paper/202205132CKb/"
         },
         {
-            "en": "Fumiaki MIZUNO, Takeshi MATSUYA, Jin MITSUGI, Osamu NAKAMURA. Design and Implementation of Low Latency IP Video Transmission System for Racing Drones Using In-frame Segmented JPEG Compression with Pipelined Processing. IEICE Technical Report, Vol.J106-B, No.3, pp.227-236, March 1st, 2022",
-            "ja": "水野史暁、松谷健史、三次仁、中村修、\"パイプライン処理によるフレーム内分割JPEG圧縮を用いたレースドローン向け低遅延IP映像伝送システムの設計と実装\"、電子情報通信学会論文誌 B、Vol.J106-B、No.3、pp.227-236、2023年3月1日",
+            "en": "Fumiaki MIZUNO, Takeshi MATSUYA, Jin MITSUGI, Osamu NAKAMURA. \"Design and Implementation of Low Latency IP Video Transmission System for Racing Drones Using In-frame Segmented JPEG Compression with Pipelined Processing\". IEICE Technical Report, Vol.J106-B, No.3, pp.227-236, March 1st, 2022",
+            "ja": "水野史暁，松谷健史，三次仁，中村修，\"パイプライン処理によるフレーム内分割JPEG圧縮を用いたレースドローン向け低遅延IP映像伝送システムの設計と実装\"，電子情報通信学会論文誌 B，Vol.J106-B、No.3，pp.227-236，2023年3月1日",
             "url": "https://search.ieice.org/bin/summary.php?id=j106-b_3_227"
         }
     ],
