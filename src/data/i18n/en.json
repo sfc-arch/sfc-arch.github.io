@@ -13,13 +13,12 @@
     },
     "text": {
         "about": "インターネットに関する数多くのプロトコルや規格が提案・標準化されてきた。\nこれらの技術を集結することにより、インターネットはユーザの多様なニーズに対応してきた。\n現在、次世代インターネットの基盤技術として、大容量データ伝送を実現するラムダネットワークや、 携帯電話やPDA等の移動体がインターネットへの接続性を常時確保するためのプロトコルに注目が集まっている。\n今後、これらの技術が利用されることで、インターネットは多様な技術が集結することでより複雑化することが予想される。\nこうしたネットワークを構築・運用していくためには個々の技術に関する知識だけでなく、複雑化したネットワークをシンプルに捉える能力が必要となる。\nArch はインターネットアーキテクチャの理解を深めると共に、次世代のインターネットアーキテクチャの提案・構築・運用を行う。",
-        "topics": "Our main research topics include the following, but students are not limited to only these.\nMembers are free to choose and tackle a topic of their choice.",
+        "topics": "Our main research topics include the following:",
         "members": "",
         "publications": "Click to open.",
         "contact": "Those with interest in Arch's activities should contact us by emailing to the mail address in the footer of this page.",
         "linkSFC": "Keio University Shonan Fujisawa Campus",
         "linkRG": "Murai/Nakamura/Kusumoto/Takashio/Van Meter/Uehara/Mitsugi/Nakazawa/Tezuka/Takeda/Okoshi Joint Research Project",
-        "linkMuraiLab": "Internet Research Lab (Jun Murai Laboratory)",
         "linkWIDE": "WIDE Project"
     }
 }
