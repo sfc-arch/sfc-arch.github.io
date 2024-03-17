@@ -116,5 +116,17 @@
             "grade": "B2",
             "grade_en": "B2"
         }
+    ],
+    "alumnus": [
+        {
+            "list": true,
+            "icon": "",
+            "name": "飯田 圭祐",
+            "name_en": "Keisuke Iida",
+            "url": "",
+            "login": "mkei",
+            "grade": "",
+            "grade_en": ""
+        }
     ]
 }

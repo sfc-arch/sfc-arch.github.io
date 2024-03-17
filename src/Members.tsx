@@ -89,6 +89,12 @@ export const Members = (props: { en: boolean }) => {
         }
         key++
     })
+    const alumnus = members.alumnus
+        .filter((item) => item.list)
+        .map((item, key) => (
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            <Member key={key} data={item as any} en={props.en} />
+        ))
     return (
         <Box>
             <Box marginY="4">
@@ -102,6 +108,12 @@ export const Members = (props: { en: boolean }) => {
                     {props.en ? "Students" : "学生"}
                 </Heading>
                 <UnorderedList>{studentsList}</UnorderedList>
+            </Box>
+            <Box marginY="4">
+                <Heading as="h3" fontSize="3xl" marginBottom="2">
+                    {props.en ? "Alumnus" : "卒業生"}
+                </Heading>
+                <UnorderedList>{alumnus}</UnorderedList>
             </Box>
         </Box>
     )
