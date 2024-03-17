@@ -72,7 +72,7 @@ const topics = [
         name: "Application operating core aware 100GbE NIC on FPGA",
         text: null,
     },
-        {
+    {
         icon: null,
         name: "Media over QUIC",
         text: null,
@@ -191,22 +191,6 @@ export const App = () => {
                                 >
                                     Arch
                                 </Heading>
-                                <Box marginBottom="50" minH="5rem">
-                                    <VStack verticalAlign="middle">
-                                        <Text
-                                            fontSize={["3xl", null, "6xl"]}
-                                            lineHeight="6rem"
-                                            minH="6rem"
-                                            display="inline"
-                                            verticalAlign="middle"
-                                            textAlign="center"
-                                            whiteSpace="nowrap"
-                                            overflow="hidden"
-                                        >
-                                            Love and Implementation
-                                        </Text>
-                                    </VStack>
-                                </Box>
                             </VStack>
                         </Grid>
                     </Box>
