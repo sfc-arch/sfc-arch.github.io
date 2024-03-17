@@ -72,6 +72,11 @@ const topics = [
         name: "Application operating core aware 100GbE NIC on FPGA",
         text: null,
     },
+        {
+        icon: null,
+        name: "Media over QUIC",
+        text: null,
+    },
 ]
 
 export const App = () => {
