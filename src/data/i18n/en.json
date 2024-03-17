@@ -12,7 +12,7 @@
         "links": "Related links"
     },
     "text": {
-        "about": "インターネットに関する数多くのプロトコルや規格が提案・標準化されてきた。\nこれらの技術を集結することにより、インターネットはユーザの多様なニーズに対応してきた。\n現在、次世代インターネットの基盤技術として、大容量データ伝送を実現するラムダネットワークや、 携帯電話やPDA等の移動体がインターネットへの接続性を常時確保するためのプロトコルに注目が集まっている。\n今後、これらの技術が利用されることで、インターネットは多様な技術が集結することでより複雑化することが予想される。\nこうしたネットワークを構築・運用していくためには個々の技術に関する知識だけでなく、複雑化したネットワークをシンプルに捉える能力が必要となる。\nArch はインターネットアーキテクチャの理解を深めると共に、次世代のインターネットアーキテクチャの提案・構築・運用を行う。",
+        "about": "Nearly 20 years have passed since Arch was established as a research group to propose, construct, and operate the next-generation "Internet Architecture. During that time, the various elements that make up the Internet have made great progress in a wide range of layers, from hardware to software.\n\nHowever, in order to construct a system that can make use of these advances, it is essential to have a deep understanding of each component of the increasingly complex networks. In addition, the scale and form of individual networks and the systems provided on them are expanding, and the areas in which these advances can be utilized are increasing.\n\nIn light of these current conditions, the goal of Arch is to provide proposals that contribute to real-world systems based on a broad and deep understanding of "Computer Architecture".",
         "topics": "Our main research topics include the following:",
         "members": "",
         "publications": "Click to open.",
