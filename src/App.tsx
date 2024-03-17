@@ -66,48 +66,18 @@ const style: { [key: string]: React.CSSProperties } = {
 
 const topics = [
     {
-        icon: <LuCircuitBoard />,
-        name: "FPGA",
-        text: null,
-    },
-    {
-        icon: <LuCode />,
-        name: "Programming Language",
-        text: null,
-    },
-    {
-        icon: <LuTerminal />,
-        name: "OS",
-        text: null,
-    },
-    {
-        icon: <LuMusic />,
-        name: "Audio",
-        text: null,
-    },
-    {
-        icon: <LuCar />,
-        name: "Mobility",
-        text: null,
-    },
-    {
-        icon: <LuNetwork />,
-        name: "Overlay Network",
-        text: null,
-    },
-    {
-        icon: null,
-        name: "Internet Communication",
-        text: null,
-    },
-    {
         icon: null,
         name: "Low-Latency IP Video Transmission",
         text: null,
     },
     {
         icon: null,
-        name: "Drone",
+        name: "Fast Virtual Machine Live Migration in Environments with Significantly Low CPU Cache Hit Rates",
+        text: null,
+    },
+    {
+        icon: null,
+        name: "Application operating core aware 100GbE NIC on FPGA",
         text: null,
     },
 ]
