@@ -1,6 +1,6 @@
-# rgroot-site
+# sfc-arch.github.io
 
-rgroot official website, developed by [hayabusa](https://github.com/h2yk).  
+Arch official website, originally developed by [hayabusa](https://github.com/h2yk), modified by hotaka, cyan.  
 Master brunch build will be deployed to the link in the repo description.
 
 ## Those who want to edit members / publications
