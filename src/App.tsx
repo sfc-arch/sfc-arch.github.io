@@ -138,7 +138,7 @@ export const App = () => {
                 <SlideFade in={load && fontLoad}>
                     <Box textAlign="left">
                         <Image
-                            src="output.webp"
+                            src="bg.jpg"
                             pos="absolute"
                             zIndex="-1"
                             style={style.image}
