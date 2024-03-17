@@ -16,6 +16,9 @@
             "en": "Daiya Yuyama and Hirochika Asai. 2023. Network Kernel API with the Control Socket for Extending Transport Protocols. In Proceedings of the on CoNEXT Student Workshop 2023 (CoNEXT-SW '23). Association for Computing Machinery, New York, NY, USA, 35–36. https://doi.org/10.1145/3630202.3630229 (Peer-reviewed)",
             "ja": "Daiya Yuyama and Hirochika Asai. 2023. Network Kernel API with the Control Socket for Extending Transport Protocols. In Proceedings of the on CoNEXT Student Workshop 2023 (CoNEXT-SW '23). Association for Computing Machinery, New York, NY, USA, 35–36. https://doi.org/10.1145/3630202.3630229 (査読有り)",
             "url": "https://dl.acm.org/doi/10.1145/3630202.3630229"
+        },
+        {
+            "ja": "柚山大哉，\"Receive queue selection with TCAM for FPGA NICs\"，WIDE研究会"
         }
     ],
     "activities": [

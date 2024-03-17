@@ -18,8 +18,6 @@ import {
     Link,
     IconButton,
     Tooltip,
-    Spinner,
-    Fade,
     ScaleFade as SlideFade,
     Menu,
     MenuButton,
@@ -105,31 +103,6 @@ export const App = () => {
             position={load && fontLoad ? "relative" : "fixed"}
         >
             <ChakraProvider theme={theme}>
-                <Fade in={!(load && fontLoad)} unmountOnExit={true}>
-                    <Center
-                        position="fixed"
-                        minH="100vh"
-                        minW="100vw"
-                        bgColor="blackAlpha.300"
-                    >
-                        <Spinner color="white" size="xl" marginRight="10" />
-                        <Box
-                            fontSize="5xl"
-                            lineHeight="50px"
-                            color="white"
-                            fontFamily={"sans-serif"}
-                        >
-                            <Heading
-                                fontSize="5xl"
-                                as="div"
-                                display="inline-block"
-                                color="white"
-                            >
-                                Arch
-                            </Heading>
-                        </Box>
-                    </Center>
-                </Fade>
                 <SlideFade in={load && fontLoad}>
                     <Box textAlign="left">
                         <Image
