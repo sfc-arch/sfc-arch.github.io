@@ -22,6 +22,10 @@ const style: { [key: string]: React.CSSProperties } = {
         verticalAlign: "sub",
         marginRight: "10px",
     },
+    iconEnd: {
+        display: "inline-block",
+        marginLeft: "0.2rem",
+    },
 }
 
 const createRules = () => {
@@ -115,8 +119,16 @@ export const Publications = (props: { en: boolean }) => {
     Array.prototype.forEach.call(publications.activities, (element) => {
         activitiesList.push(
             <ListItem key={key}>
-                {linkIcon(element.url)}
-                {props.en ? element.en : element.ja}
+                {element.url ? (
+                    <Link href={element.url}>
+                        {props.en ? element.en : element.ja}
+                        <AiOutlineLink style={style.iconEnd}></AiOutlineLink>
+                    </Link>
+                ) : props.en ? (
+                    element.en
+                ) : (
+                    element.ja
+                )}
             </ListItem>
         )
         key++
