@@ -326,16 +326,6 @@ export const App = () => {
                             <ListItem>
                                 <Link
                                     color="teal.500"
-                                    href="https://www.sfc.wide.ad.jp/"
-                                    marginRight="1"
-                                >
-                                    {t("text.linkMuraiLab")}
-                                </Link>
-                                <GoLinkExternal style={style.icon} />
-                            </ListItem>
-                            <ListItem>
-                                <Link
-                                    color="teal.500"
                                     href="https://www.wide.ad.jp/"
                                     marginRight="1"
                                 >
