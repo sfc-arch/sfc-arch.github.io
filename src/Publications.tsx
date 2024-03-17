@@ -121,13 +121,29 @@ export const Publications = (props: { en: boolean }) => {
             <ListItem key={key}>
                 {element.url ? (
                     <Link href={element.url}>
-                        {props.en ? element.en : element.ja}
+                        <Highlight
+                            query={rules}
+                            styles={{
+                                px: "0.5",
+                                py: "0.5",
+                                bg: "orange.100",
+                            }}
+                        >
+                            {props.en ? element.en : element.ja}
+                        </Highlight>
                         <AiOutlineLink style={style.iconEnd}></AiOutlineLink>
                     </Link>
-                ) : props.en ? (
-                    element.en
                 ) : (
-                    element.ja
+                    <Highlight
+                        query={rules}
+                        styles={{
+                            px: "0.5",
+                            py: "0.5",
+                            bg: "orange.100",
+                        }}
+                    >
+                        {props.en ? element.en : element.ja}
+                    </Highlight>
                 )}
             </ListItem>
         )
