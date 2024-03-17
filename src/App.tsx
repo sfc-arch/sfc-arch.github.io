@@ -181,6 +181,7 @@ export const App = () => {
                                     paddingLeft="14vw"
                                     paddingBottom={["100", "200", null]}
                                     lineHeight="150px"
+                                    color="white"
                                 >
                                     Arch
                                 </Heading>
