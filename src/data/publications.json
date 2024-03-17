@@ -1,5 +1,10 @@
 {
     "papers": [
+        {
+            "en": "Fumiaki MIZUNO, Takeshi MATSUYA, Osamu NAKAMURA. Design and Implementation of Low-Latency Video Transmission for Racing Drones. IEICE Technical Report, vol. 122, no. 15, CQ2022-14, pp. 74-79, May 2022",
+            "ja": "水野史暁、松谷健史、中村修、\"レースドローン向け低遅延IP映像伝送システムの設計と実装\"、信学技報、vol. 122、no. 15、CQ2022-14、pp.74-79、2022年5月",
+            "url": "https://ken.ieice.org/ken/paper/202205132CKb"
+        }
     ],
     "presentations": [
     ],
