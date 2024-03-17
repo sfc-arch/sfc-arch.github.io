@@ -89,7 +89,7 @@ export const Members = (props: { en: boolean }) => {
         }
         key++
     })
-    const alumnus = members.alumnus
+    const alumniAndAlumnae = members.alumniAndAlumnae
         .filter((item) => item.list)
         .map((item, key) => (
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -111,9 +111,9 @@ export const Members = (props: { en: boolean }) => {
             </Box>
             <Box marginY="4">
                 <Heading as="h3" fontSize="3xl" marginBottom="2">
-                    {props.en ? "Alumnus" : "卒業生"}
+                    {props.en ? "Alumni and Alumnae" : "卒業生"}
                 </Heading>
-                <UnorderedList>{alumnus}</UnorderedList>
+                <UnorderedList>{alumniAndAlumnae}</UnorderedList>
             </Box>
         </Box>
     )
