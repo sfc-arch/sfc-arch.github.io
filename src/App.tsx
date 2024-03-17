@@ -320,7 +320,9 @@ export const App = () => {
                             </ListItem>
                         </UnorderedList>
                         <VStack marginTop="10">
-                            <Text>©2022 SFC-RG / Arch</Text>
+                            <Text>
+                                ©{new Date().getFullYear()} Arch, SFC-RG
+                            </Text>
                             <Box>
                                 <AiOutlineMail
                                     style={style.icon}
