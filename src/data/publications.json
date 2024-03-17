@@ -1,0 +1,73 @@
+{
+    "papers": [
+        {
+            "en": "Fumiaki MIZUNO, Takeshi MATSUYA, Jin MITSUGI, Osamu NAKAMURA. \"Design and Implementation of Low Latency IP Video Transmission System for Racing Drones Using In-frame Segmented JPEG Compression with Pipelined Processing\". IEICE Technical Report, Vol.J106-B, No.3, pp.227-236, March 1st, 2022",
+            "ja": "水野史暁，松谷健史，三次仁，中村修，\"パイプライン処理によるフレーム内分割JPEG圧縮を用いたレースドローン向け低遅延IP映像伝送システムの設計と実装\"，電子情報通信学会論文誌 B，Vol.J106-B、No.3，pp.227-236，2023年3月1日",
+            "url": "https://search.ieice.org/bin/summary.php?id=j106-b_3_227"
+        },
+        {
+            "en": "Fumiaki MIZUNO, Takeshi MATSUYA, Osamu NAKAMURA. \"Design and Implementation of Low-Latency Video Transmission for Racing Drones\". IEICE Technical Report, vol. 122, no. 15, CQ2022-14, pp. 74-79, May 2022",
+            "ja": "水野史暁，松谷健史，中村修，\"レースドローン向け低遅延IP映像伝送システムの設計と実装\"，信学技報、vol. 122、no. 15、CQ2022-14，pp.74-79，2022年5月",
+            "url": "https://ken.ieice.org/ken/paper/202205132CKb/"
+        }
+    ],
+    "presentations": [
+        {
+            "en": "Daiya Yuyama，\"Receive queue selection with TCAM for FPGA NICs\"，WIDE Meeting，Nagoya International Center，1-47-1 Nakono, Nakamura-ku, Nagoya City, Aichi Prefecture，2024/03/05-07",
+            "ja": "柚山大哉，\"Receive queue selection with TCAM for FPGA NICs\"，WIDE研究会，名古屋国際センター，愛知県名古屋市中村区那古野１丁目４７−１，2024/03/05-07",
+            "url": ""
+        },
+        {
+            "ja": "上田侑真，\"Receive queue selection with TCAM for FPGA NICs\"，WIDE研究会，名古屋国際センター，愛知県名古屋市中村区那古野１丁目４７−１，2024/03/05-07",
+            "en": "Yuma Ueda，\"A Study on a Method for Accelerating Pre-Copy VM Live Migration by Dynamic Skipping of Zero Page Detection\"，WIDE Meeting，Nagoya International Center，1-47-1 Nakono, Nakamura-ku, Nagoya City, Aichi Prefecture，2024/03/05-07",
+            "url": ""
+        },
+        {
+            "en": "Daiya Yuyama and Hirochika Asai. 2023. Network Kernel API with the Control Socket for Extending Transport Protocols. In Proceedings of the on CoNEXT Student Workshop 2023 (CoNEXT-SW '23). Association for Computing Machinery, New York, NY, USA, 35–36. https://doi.org/10.1145/3630202.3630229 (Peer-reviewed)",
+            "ja": "Daiya Yuyama and Hirochika Asai. 2023. Network Kernel API with the Control Socket for Extending Transport Protocols. In Proceedings of the on CoNEXT Student Workshop 2023 (CoNEXT-SW '23). Association for Computing Machinery, New York, NY, USA, 35–36. https://doi.org/10.1145/3630202.3630229 (査読有り)",
+            "url": "https://dl.acm.org/doi/10.1145/3630202.3630229"
+        }
+    ],
+    "activities": [
+        {
+            "en": "2023/06/30: Fumiaki Mizuno qualified for MITOU Advanced Program.",
+            "ja": "2023/06/30: 水野史暁が2023年度未踏アドバンスド事業に採択されました",
+            "url": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/koubokekka.html"
+        },
+        {
+            "en": "2023/06/19: Shota Imamura qualified for MITOU Program.",
+            "ja": "2023/06/19: 今村翔太が2023年度未踏IT人材発掘・育成事業に採択されました",
+            "url": ""
+        },
+        {
+            "en": "2023/05/26: Daiya Yuyama and Keisuke Iida was certified as a Super Creators of the MITOU Program.",
+            "ja": "2023/05/27: 飯田圭祐と柚山大哉が2022年度未踏IT人材発掘・育成事業においてスーパークリエータに認定されました",
+            "url": "https://www.meti.go.jp/english/press/2023/0526_003.html"
+        },
+        {
+            "en": "2022/06/20: Daiya Yuyama and Keisuke Iida qualified for MITOU Program.",
+            "ja": "2022/06/20: 飯田圭祐と柚山大哉が2022年度未踏IT人材発掘・育成事業に採択されました",
+            "url": ""
+        },
+        {
+            "en": "2022/05/27: Fumiaki Mizuno was certified as a Super Creators of the MITOU Program.",
+            "ja": "2022/05/27: 水野史暁が2021年度未踏IT人材発掘・育成事業においてスーパークリエータに認定されました",
+            "url": "https://www.meti.go.jp/english/press/2022/0527_004.html"
+        },
+        {
+            "en": "2021/06/01: Fumiaki Mizuno qualified for MITOU Program.",
+            "ja": "2021/06/01: 水野史暁が2021年度未踏IT人材発掘・育成事業に採択されました",
+            "url": ""
+        },
+        {
+            "en": "2021/06/28: Yuma Ueda was certified as a Super Creators of the MITOU Program.",
+            "ja": "2021/06/28: 上田侑真が2020年度未踏IT人材発掘・育成事業においてスーパークリエータに認定されました",
+            "url": "https://www.meti.go.jp/english/press/2021/0528_003.html"
+        },
+        {
+            "en": "2020/06/26: Yuma Ueda qualified for MITOU Program.",
+            "ja": "2020/06/26: 上田侑真が2020年度未踏IT人材発掘・育成事業に採択されました",
+            "url": ""
+        }
+    ]
+}

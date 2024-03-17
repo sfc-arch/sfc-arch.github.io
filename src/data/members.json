@@ -1,0 +1,142 @@
+{
+    "faculties": [
+        {
+            "list": true,
+            "icon": "",
+            "name": "松谷 健史",
+            "name_en": "Takeshi Matsuya",
+            "url": "",
+            "login": "macchan",
+            "affiliation": "特任講師",
+            "affiliation_en":  "Project Assistant Professor",
+            "grade": "",
+            "grade_en": ""
+        }
+    ],
+    "students": [
+        {
+            "list": true,
+            "icon": "",
+            "name": "水野 史暁",
+            "name_en": "Fumiaki Mizuno",
+            "url": "",
+            "login": "fumi",
+            "affiliation": "特任助教",
+            "affiliation_en":  "Project Research Associate",
+            "grade": "D1",
+            "grade_en": "D1"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "上田 侑真",
+            "name_en": "Yuma Ueda",
+            "url": "",
+            "login": "cyan",
+            "grade": "M2",
+            "grade_en": "M2"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "石川 達敬",
+            "name_en": "Tatsunori Ishikawa",
+            "url": "",
+            "login": "tatsu",
+            "grade": "M2",
+            "grade_en": "M2"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "柚山 大哉",
+            "name_en": "Daiya Yuyama",
+            "url": "",
+            "login": "daiya",
+            "grade": "B4",
+            "grade_en": "B4"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "坂内 理人",
+            "name_en": "Rihito Bannai",
+            "url": "",
+            "login": "rihib",
+            "grade": "B4",
+            "grade_en": "B4"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "瀧澤 将音",
+            "name_en": "Masato Takizawa",
+            "url": "",
+            "login": "ras",
+            "grade": "B4",
+            "grade_en": "B4"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "納本 穂高",
+            "name_en": "Hotaka Okumoto",
+            "url": "",
+            "login": "hotaka",
+            "grade": "B3",
+            "grade_en": "B3"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "今村 翔太",
+            "name_en": "Shota Imamura",
+            "url": "",
+            "login": "cosocaf",
+            "grade": "B3",
+            "grade_en": "B3"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "磯 亮太",
+            "name_en": "Iso Ryota",
+            "url": "",
+            "login": "ryota-iso",
+            "grade": "B3",
+            "grade_en": "B3"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "今井 正人",
+            "name_en": "Masato Imai",
+            "url": "",
+            "login": "mii",
+            "grade": "B2",
+            "grade_en": "B2"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "八谷 航太",
+            "name_en": "Kota Yatagai",
+            "url": "",
+            "login": "kota",
+            "grade": "B2",
+            "grade_en": "B2"
+        }
+    ],
+    "alumniAndAlumnae": [
+        {
+            "list": true,
+            "icon": "",
+            "name": "飯田 圭祐",
+            "name_en": "Keisuke Iida",
+            "url": "",
+            "login": "mkei",
+            "grade": "",
+            "grade_en": ""
+        }
+    ]
+}
