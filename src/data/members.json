@@ -8,7 +8,7 @@
             "url": "",
             "login": "macchan",
             "affiliation": "特任講師",
-            "affiliation_en":  "Specially Appointed Lecturer",
+            "affiliation_en":  "Project Assistant Professor",
             "grade": "",
             "grade_en": ""
         }
@@ -21,6 +21,8 @@
             "name_en": "Fumiaki Mizuno",
             "url": "",
             "login": "fumi",
+            "affiliation": "特任助教",
+            "affiliation_en":  "Project Research Associate",
             "grade": "D",
             "grade_en": "D"
         },
