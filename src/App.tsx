@@ -227,8 +227,8 @@ export const App = () => {
                         <Text whiteSpace="pre-line">{t("text.topics")}</Text>
                         <IconContext.Provider value={{ size: "100px" }}>
                             <SimpleGrid
-                                columns={[1, null, 3]}
-                                spacing={10}
+                                columns={[1, null, 2]}
+                                spacing={4}
                                 marginTop="10"
                             >
                                 {topics.map((topic) => (
@@ -238,9 +238,12 @@ export const App = () => {
                                         variant="outline"
                                         size="sm"
                                     >
-                                        <CardHeader>{topic.icon}</CardHeader>
                                         <CardBody>
-                                            <VStack>
+                                            <VStack
+                                                minHeight="64px"
+                                                align="center"
+                                                justify="center"
+                                            >
                                                 <Heading
                                                     as="h3"
                                                     fontSize={"sm"}
