@@ -110,27 +110,22 @@ export const App = () => {
                         position="fixed"
                         minH="100vh"
                         minW="100vw"
-                        bgColor="white"
+                        bgColor="blackAlpha.300"
                     >
-                        <Spinner
-                            color="blackAlpha.800"
-                            size="xl"
-                            marginRight="10"
-                        />
+                        <Spinner color="white" size="xl" marginRight="10" />
                         <Box
                             fontSize="5xl"
                             lineHeight="50px"
-                            color="#C9E9FA"
+                            color="white"
                             fontFamily={"sans-serif"}
                         >
-                            {"> SFC-"}
                             <Heading
                                 fontSize="5xl"
-                                as="h1"
+                                as="div"
                                 display="inline-block"
-                                color="#0369A1"
+                                color="white"
                             >
-                                {"RG"}
+                                Arch
                             </Heading>
                         </Box>
                     </Center>
@@ -164,20 +159,18 @@ export const App = () => {
                             <VStack
                                 alignItems="left"
                                 marginTop={["10", "0", "0"]}
-                                textColor="whiteAlpha.800"
                             >
                                 <Box
                                     fontSize="4xl"
                                     paddingLeft="14vw"
                                     lineHeight="50px"
-                                    color="#C9E9FA"
+                                    color="white"
                                 >
                                     {"> SFC-"}
                                     <Heading
                                         fontSize="4xl"
                                         as="h1"
                                         display="inline-block"
-                                        color="#0369A1"
                                     >
                                         {"RG"}
                                     </Heading>
