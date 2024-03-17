@@ -57,6 +57,7 @@ const badge = (badgeStr: string) => {
         case "M1":
         case "M2":
             return "orange"
+        case "D":
         case "D1":
         case "D2":
         case "D3":
