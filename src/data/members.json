@@ -85,6 +85,56 @@
             "login": "kota",
             "grade": "B3",
             "grade_en": "B3"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "今井正人",
+            "name_en": "Masato Imai",
+            "url": "",
+            "login": "mii",
+            "grade": "B3",
+            "grade_en": "B3"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "齋藤 淳平",
+            "name_en": "Jumpei Saito",
+            "url": "",
+            "login": "junpei",
+            "grade": "B2",
+            "grade_en": "B2"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "伊組 烈火",
+            "name_en": "Rekka Igumi",
+            "url": "",
+            "login": "horizon",
+            "grade": "B1",
+            "grade_en": "B1"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "佐古 萌奈",
+            "name_en": "Mona Sako",
+            "url": "",
+            "login": "sakomona",
+            "grade": "B1",
+            "grade_en": "B1"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "佐々木 創生",
+            "name_en": "Soki Sasaki",
+            "url": "",
+            "login": "sok1",
+            "grade": "B2",
+            "grade_en": "B2"
         }
     ],
     "alumniAndAlumnae": [
