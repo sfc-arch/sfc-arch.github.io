@@ -17,34 +17,12 @@
         {
             "list": true,
             "icon": "",
-            "name": "水野 史暁",
-            "name_en": "Fumiaki Mizuno",
-            "url": "",
-            "login": "fumi",
-            "affiliation": "特任助教",
-            "affiliation_en":  "Project Research Associate",
-            "grade": "D2",
-            "grade_en": "D2"
-        },
-        {
-            "list": true,
-            "icon": "",
             "name": "上田 侑真",
             "name_en": "Yuma Ueda",
             "url": "",
             "login": "cyan",
             "grade": "D1",
             "grade_en": "D1"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "柚山 大哉",
-            "name_en": "Daiya Yuyama",
-            "url": "",
-            "login": "daiya",
-            "grade": "M1",
-            "grade_en": "M1"
         },
         {
             "list": true,
@@ -59,52 +37,12 @@
         {
             "list": true,
             "icon": "",
-            "name": "今村 翔太",
-            "name_en": "Shota Imamura",
-            "url": "",
-            "login": "cosocaf",
-            "grade": "B4",
-            "grade_en": "B4"
-        },
-        {
-            "list": true,
-            "icon": "",
             "name": "磯 亮太",
             "name_en": "Iso Ryota",
             "url": "",
             "login": "ryota-iso",
             "grade": "B4",
             "grade_en": "B4"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "八谷 航太",
-            "name_en": "Kota Yatagai",
-            "url": "",
-            "login": "kota",
-            "grade": "B3",
-            "grade_en": "B3"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "今井正人",
-            "name_en": "Masato Imai",
-            "url": "",
-            "login": "mii",
-            "grade": "B3",
-            "grade_en": "B3"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "齋藤 淳平",
-            "name_en": "Jumpei Saito",
-            "url": "",
-            "login": "junpei",
-            "grade": "B2",
-            "grade_en": "B2"
         },
         {
             "list": true,
@@ -126,27 +64,7 @@
             "grade": "B1",
             "grade_en": "B1"
         },
-        {
-            "list": true,
-            "icon": "",
-            "name": "佐々木 創生",
-            "name_en": "Soki Sasaki",
-            "url": "",
-            "login": "sok1",
-            "grade": "B2",
-            "grade_en": "B2"
-        }
     ],
     "alumniAndAlumnae": [
-        {
-            "list": true,
-            "icon": "",
-            "name": "飯田 圭祐",
-            "name_en": "Keisuke Iida",
-            "url": "",
-            "login": "mkei",
-            "grade": "",
-            "grade_en": ""
-        }
     ]
 }
