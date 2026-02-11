@@ -13,10 +13,10 @@ import {
 } from "@chakra-ui/react"
 import * as React from "react"
 import publications from "./data/publications.json"
-import {normalized_members as members} from "./data/members"
-import {AiOutlineLink} from "react-icons/ai"
+import members from "./data/members.json"
+import { AiOutlineLink } from "react-icons/ai"
 
-const style: {[key: string]: React.CSSProperties} = {
+const style: { [key: string]: React.CSSProperties } = {
     icon: {
         display: "inline-block",
         verticalAlign: "sub",
@@ -82,7 +82,7 @@ const linkIcon = (url: string) => {
     }
 }
 
-export const Publications = (props: {en: boolean}) => {
+export const Publications = (props: { en: boolean }) => {
     const papersList: JSX.Element[] = []
     const presentationsList: JSX.Element[] = []
     const activitiesList: JSX.Element[] = []
