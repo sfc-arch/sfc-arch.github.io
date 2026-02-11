@@ -104,7 +104,7 @@ export const App = () => {
             <ChakraProvider theme={theme}>
                 <Box textAlign="left">
                     <Image
-                        src={`${process.env.PUBLIC_URL}/bg.webp`}
+                        src="bg.webp"
                         pos="absolute"
                         zIndex="-1"
                         style={style.image}
