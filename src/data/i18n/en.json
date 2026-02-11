@@ -4,7 +4,7 @@
         "langSwitcher": "Change Language"
     },
     "heading": {
-        "about": "About Arch",
+        "about": "About VIRT",
         "topics": "Research topics",
         "members": "Members",
         "publications": "Publication, Presentation, Activity",
@@ -12,13 +12,13 @@
         "links": "Related links"
     },
     "text": {
-        "about": "Nearly 20 years have passed since Arch was established as a research group to propose, construct, and operate the next-generation \"Internet Architecture\". During that time, the various elements that make up the Internet have made great progress in a wide range of layers, from hardware to software.\n\nHowever, in order to construct a system that can make use of these advances, it is essential to have a deep understanding of each component of the increasingly complex networks. In addition, the scale and form of individual networks and the systems provided on them are expanding, and the areas in which these advances can be utilized are increasing.\n\nIn light of these current conditions, the goal of Arch is to provide proposals that contribute to real-world systems based on a broad and deep understanding of \"Computer Architecture\".",
+        "about": "Nearly 20 years have passed since VIRT was established as a research group to propose, construct, and operate the next-generation \"Internet Architecture\". During that time, the various elements that make up the Internet have made great progress in a wide range of layers, from hardware to software.\n\nHowever, in order to construct a system that can make use of these advances, it is essential to have a deep understanding of each component of the increasingly complex networks. In addition, the scale and form of individual networks and the systems provided on them are expanding, and the areas in which these advances can be utilized are increasing.\n\nIn light of these current conditions, the goal of VIRT is to provide proposals that contribute to real-world systems based on a broad and deep understanding of \"Computer Architecture\".",
         "topics": "Our main research topics include the following:",
         "members": "",
         "publications": "Click to open.",
-        "contact": "Those with interest in Arch's activities should contact us by emailing to the mail address in the footer of this page.",
+        "contact": "Those with interest in VIRT's activities should contact us by emailing to the mail address in the footer of this page.",
         "linkSFC": "Keio University Shonan Fujisawa Campus",
-        "linkRG": "Murai/Nakamura/Kusumoto/Takashio/Van Meter/Uehara/Mitsugi/Nakazawa/Tezuka/Takeda/Okoshi Joint Research Project",
+        "linkRG": "Kusumoto/Takashio/Van Meter/Uehara/Mitsugi/Nakazawa/Okoshi Joint Research Project",
         "linkWIDE": "WIDE Project"
     }
 }

@@ -23,21 +23,21 @@ import {
     MenuList,
     MenuItem,
 } from "@chakra-ui/react"
-import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { AiOutlineMail } from "react-icons/ai"
-import { GoLinkExternal } from "react-icons/go"
-import { HiTranslate } from "react-icons/hi"
-import { IconContext } from "react-icons/lib"
-import { useTranslation } from "react-i18next"
-import { Members } from "./Members"
-import { Publications } from "./Publications"
-import { langList } from "./data/i18n/i18n"
+import {ColorModeSwitcher} from "./ColorModeSwitcher"
+import {AiOutlineMail} from "react-icons/ai"
+import {GoLinkExternal} from "react-icons/go"
+import {HiTranslate} from "react-icons/hi"
+import {IconContext} from "react-icons/lib"
+import {useTranslation} from "react-i18next"
+import {Members} from "./Members"
+import {Publications} from "./Publications"
+import {langList} from "./data/i18n/i18n"
 import i18n from "i18next"
 import theme from "./theme"
 import "@fontsource/biz-udpgothic"
 import "@fontsource/ibm-plex-mono"
 
-const style: { [key: string]: React.CSSProperties } = {
+const style: {[key: string]: React.CSSProperties} = {
     image: {
         maskImage:
             "linear-gradient(to bottom, rgba(0,0,0,1) 90%, rgba(0,0,0,0))",
@@ -87,7 +87,7 @@ export const App = () => {
     const langElems = langList.map((e) => {
         return <MenuItem onClick={() => changeLang(e.key)}>{e.value}</MenuItem>
     })
-    const { t } = useTranslation()
+    const {t} = useTranslation()
     React.useEffect(() => {
         if (document.readyState === "complete") {
             //already loaded
@@ -151,7 +151,7 @@ export const App = () => {
                                 lineHeight="150px"
                                 color="white"
                             >
-                                Arch
+                                VIRT
                             </Heading>
                         </VStack>
                     </Grid>
@@ -183,7 +183,7 @@ export const App = () => {
                         {t("heading.topics")}
                     </Heading>
                     <Text whiteSpace="pre-line">{t("text.topics")}</Text>
-                    <IconContext.Provider value={{ size: "100px" }}>
+                    <IconContext.Provider value={{size: "100px"}}>
                         <SimpleGrid
                             columns={[1, null, 2]}
                             spacing={4}
@@ -281,15 +281,15 @@ export const App = () => {
                         </ListItem>
                     </UnorderedList>
                     <VStack marginTop="10">
-                        <Text>©{new Date().getFullYear()} Arch, SFC-RG</Text>
+                        <Text>©{new Date().getFullYear()} VIRT, SFC-RG</Text>
                         <Box>
                             <AiOutlineMail style={style.icon}></AiOutlineMail>
                             <Link
                                 color="teal.500"
-                                href="mailto:arch@sfc.wide.ad.jp"
+                                href="mailto:virt@sfc.wide.ad.jp"
                                 marginLeft="1"
                             >
-                                arch@sfc.wide.ad.jp
+                                virt@sfc.wide.ad.jp
                             </Link>
                         </Box>
                     </VStack>
