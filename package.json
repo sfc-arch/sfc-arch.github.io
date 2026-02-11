@@ -2,7 +2,7 @@
   "name": "rgroot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": ".",
   "dependencies": {
     "@babel/core": "^7.23.6",
     "@babel/plugin-syntax-flow": "^7.23.3",
