@@ -99,20 +99,20 @@
         {
             "list": true,
             "icon": "",
-            "name": "佐古 萌奈",
-            "name_en": "Mona Sako",
-            "url": "",
-            "login": "sakomona",
-            "grade": "B2",
-            "grade_en": "B2"
-        },
-        {
-            "list": true,
-            "icon": "",
             "name": "小野 太誠",
             "name_en": "Taisei Ono",
             "url": "",
             "login": "nonica",
+            "grade": "B3",
+            "grade_en": "B3"
+        },
+        {
+            "list": true,
+            "icon": "",
+            "name": "佐古 萌奈",
+            "name_en": "Mona Sako",
+            "url": "",
+            "login": "sakomona",
             "grade": "B2",
             "grade_en": "B2"
         }
