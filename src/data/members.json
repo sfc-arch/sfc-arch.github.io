@@ -23,18 +23,8 @@
             "login": "fumi",
             "affiliation": "特任助教",
             "affiliation_en":  "Project Research Associate",
-            "grade": "D2",
-            "grade_en": "D2"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "上田 侑真",
-            "name_en": "Yuma Ueda",
-            "url": "",
-            "login": "cyan",
-            "grade": "D1",
-            "grade_en": "D1"
+            "grade": "D3",
+            "grade_en": "D3"
         },
         {
             "list": true,
@@ -43,8 +33,8 @@
             "name_en": "Daiya Yuyama",
             "url": "",
             "login": "daiya",
-            "grade": "M1",
-            "grade_en": "M1"
+            "grade": "M2",
+            "grade_en": "M2"
         },
         {
             "list": true,
@@ -81,10 +71,10 @@
             "icon": "",
             "name": "八谷 航太",
             "name_en": "Kota Yatagai",
-            "url": "",
+            "url": "https://kota-yata.com",
             "login": "kota",
-            "grade": "B3",
-            "grade_en": "B3"
+            "grade": "B4",
+            "grade_en": "B4"
         },
         {
             "list": true,
@@ -93,8 +83,8 @@
             "name_en": "Masato Imai",
             "url": "",
             "login": "mii",
-            "grade": "B3",
-            "grade_en": "B3"
+            "grade": "B4",
+            "grade_en": "B4"
         },
         {
             "list": true,
@@ -103,18 +93,8 @@
             "name_en": "Jumpei Saito",
             "url": "",
             "login": "junpei",
-            "grade": "B2",
-            "grade_en": "B2"
-        },
-        {
-            "list": true,
-            "icon": "",
-            "name": "伊組 烈火",
-            "name_en": "Rekka Igumi",
-            "url": "",
-            "login": "horizon",
-            "grade": "B1",
-            "grade_en": "B1"
+            "grade": "B3",
+            "grade_en": "B3"
         },
         {
             "list": true,
@@ -123,16 +103,16 @@
             "name_en": "Mona Sako",
             "url": "",
             "login": "sakomona",
-            "grade": "B1",
-            "grade_en": "B1"
+            "grade": "B2",
+            "grade_en": "B2"
         },
         {
             "list": true,
             "icon": "",
-            "name": "佐々木 創生",
-            "name_en": "Soki Sasaki",
+            "name": "小野 太誠",
+            "name_en": "Taisei Ono",
             "url": "",
-            "login": "sok1",
+            "login": "nonica",
             "grade": "B2",
             "grade_en": "B2"
         }
