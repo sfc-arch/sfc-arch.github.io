@@ -182,7 +182,6 @@ export const App = () => {
                     <Heading as="h2" fontSize="4xl" paddingBottom="4">
                         {t("heading.topics")}
                     </Heading>
-                    <Text whiteSpace="pre-line">{t("text.topics")}</Text>
                     <IconContext.Provider value={{ size: "100px" }}>
                         <SimpleGrid
                             columns={[1, null, 2]}
