@@ -35,8 +35,13 @@
     ],
     "activities": [
         {
-            "en": "2024/06/03 Shota Imamura was certified as a Super Creators of the MITOU Program.",
-            "ja": "2024/06/03 今村翔太が2024年度未踏IT人材発掘・育成事業においてスーパークリエータに認定されました",
+            "en": "2025/05/09: Kota Yatagai was qualified for Google Summer of Code 2025.",
+            "ja": "2025/05/09: 八谷航太がGoogle Summer of Code 2025に採択されました",
+            "url": "https://summerofcode.withgoogle.com/archive/2025/projects/aBy319rB"
+        },
+        {
+            "en": "2024/06/03: Shota Imamura was certified as a Super Creators of the MITOU Program.",
+            "ja": "2024/06/03: 今村翔太が2024年度未踏IT人材発掘・育成事業においてスーパークリエータに認定されました",
             "url": "https://www.ipa.go.jp/jinzai/mitou/it/2023/supercreator.html"
         },
         {
