@@ -61,11 +61,6 @@ const topics = [
     },
     {
         icon: null,
-        name: "Fast Virtual Machine Live Migration in Environments with Significantly Low CPU Cache Hit Rates",
-        text: null,
-    },
-    {
-        icon: null,
         name: "Application operating core aware 100GbE NIC on FPGA",
         text: null,
     },
